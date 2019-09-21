@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>F:/mynotebook/mynote/Gridea/output</id>
+    <id>https://kveln.cn</id>
     <title>Kveln&apos;Blog</title>
-    <updated>2019-09-19T05:48:26.143Z</updated>
+    <updated>2019-09-21T15:44:36.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="F:/mynotebook/mynote/Gridea/output"/>
-    <link rel="self" href="F:/mynotebook/mynote/Gridea/output/atom.xml"/>
+    <link rel="alternate" href="https://kveln.cn"/>
+    <link rel="self" href="https://kveln.cn/atom.xml"/>
     <subtitle> A Product Manager</subtitle>
-    <logo>F:/mynotebook/mynote/Gridea/output/images/avatar.png</logo>
-    <icon>F:/mynotebook/mynote/Gridea/output/favicon.ico</icon>
+    <logo>https://kveln.cn/images/avatar.png</logo>
+    <icon>https://kveln.cn/favicon.ico</icon>
     <rights>All rights reserved 2019, Kveln&apos;Blog</rights>
     <entry>
         <title type="html"><![CDATA[阿里云轻应用服务器安装宝塔面板]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/20/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/20/index.html">
+        <id>https://kveln.cn/post/20</id>
+        <link href="https://kveln.cn/post/20">
         </link>
         <updated>2019-09-03T14:08:34.000Z</updated>
         <summary type="html"><![CDATA[<p>今天通过阿里云开发者社区的开发者认证测试，就能获得一张优惠券<a href="https://developer.aliyun.com/certification?inviteCode=loxghi4ez6ij4">阿里云开发者认证活动地址</a>。我也去撸了一张200元的优惠券，买了一个阿里云香港的轻应用服务器，想着在上面安装一下宝塔面板，下面记录一下小白安装宝塔的过程。</p>
@@ -84,28 +84,28 @@
 <p><strong>Centos安装命令：</strong></p>
 <p><code>yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</code></p>
 <p>等待安装完成，注意在安装过程中需要输入y来确认。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1567524805951-assets/web-upload/b0e7b8a2-d7d6-4595-ac2c-48e8acda8e1f.png" alt="宝塔面板安装完成"></p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1567524805951-assets/web-upload/b0e7b8a2-d7d6-4595-ac2c-48e8acda8e1f.png" alt="宝塔面板安装完成"></figure>
 <p>等到出现如下的界面，则说明已经安装成功，这个时候，我们把图中的宝塔地址和用户名以及密码保存下来，</p>
 <h2 id="登录到宝塔面板后台安装web环境">登录到宝塔面板后台，安装web环境</h2>
 <p>选择推荐的就好，点击一键安装，然后静待安装完成即可。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1567524809315-assets/web-upload/ce6c4e1d-0869-40c0-a159-fac17cfed07d.jpeg" alt="安装Web环境"></p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1567524809315-assets/web-upload/ce6c4e1d-0869-40c0-a159-fac17cfed07d.jpeg" alt="安装Web环境"></figure>
 <h2 id="连接ftp遇到的问题">连接FTP遇到的问题</h2>
 <p>1.FTP连接报错        <code>421 Unable to read the indexed puredb file (or old format detected) - Try pure-pw mkdb</code></p>
 <p>解决：在宝塔后台FTP管理中添加一个用户，同时修改ftp配置文件 将ForcePassiveIP前面的#去掉 将192.168.0.1替换成服务器的外网IP。更多见 <a href="https://www.bt.cn/bbs/thread-1903-1-1.html">FTP连接不上的解决方法</a></p>
-<p><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1567524812363-assets/web-upload/e9d92e09-dd3f-490a-babe-48773ed6f0eb.png" alt="FTP连接报错"></p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1567524812363-assets/web-upload/e9d92e09-dd3f-490a-babe-48773ed6f0eb.png" alt="FTP连接报错"></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[《哪吒之魔童降世》并没有那么好]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/Ne Zha/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/Ne Zha/index.html">
+        <id>https://kveln.cn/post/Ne Zha</id>
+        <link href="https://kveln.cn/post/Ne Zha">
         </link>
         <updated>2019-08-26T11:46:22.000Z</updated>
         <summary type="html"><![CDATA[<p>半年没看电影了，昨天终于去看了《哪吒之魔童降世》，这部动漫电影目前在总票房榜上排名第3，网上也是一片好评，但是看完，感觉还是和期望有一点差距。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>半年没看电影了，昨天终于去看了《哪吒之魔童降世》，这部动漫电影目前在总票房榜上排名第3，网上也是一片好评，但是看完，感觉还是和期望有一点差距。</p>
 <!-- more -->
-<p><img src="https://img3.doubanio.com/view/photo/l/public/p2563780504.jpg" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://img3.doubanio.com/view/photo/l/public/p2563780504.jpg" alt=""></figure>
 <h2 id="剧情">剧情</h2>
 <p>整部电影在剧情上让我感觉只是披着中国神话故事的外衣，夹杂了太多现代的东西。总体没什么特别出彩的地方，可能时长所限，整个剧情的转折在一些方面有些生硬，比如敖丙和哪吒成为好朋友，以及敖丙的黑化，这些剧情缺少铺垫。还有太乙真人在电影中被改变成了一个大胖子，像是电影为了搞笑而强行改编。唯一让我喜欢的是对龙族的改编。</p>
 <h2 id="画面-特效">画面、特效</h2>
@@ -119,8 +119,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea主题zero]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/gridea-theme-zero/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/gridea-theme-zero/index.html">
+        <id>https://kveln.cn/post/gridea-theme-zero</id>
+        <link href="https://kveln.cn/post/gridea-theme-zero">
         </link>
         <updated>2019-07-30T10:52:08.000Z</updated>
         <summary type="html"><![CDATA[<p>一款简洁专注于写作的Gridea博客主题,网站主题移植参考于<a href="https://blog.caicai.me/">菩提树下</a>,也是目前本博客使用的主题。</p>
@@ -139,8 +139,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[为你的Gridea博客加上Valine评论系统]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/qE678A4ce/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/qE678A4ce/index.html">
+        <id>https://kveln.cn/post/qE678A4ce</id>
+        <link href="https://kveln.cn/post/qE678A4ce">
         </link>
         <updated>2019-07-15T07:27:53.000Z</updated>
         <summary type="html"><![CDATA[<p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
@@ -215,8 +215,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[损失厌恶和沉没成本]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/WpCEDNLIl/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/WpCEDNLIl/index.html">
+        <id>https://kveln.cn/post/WpCEDNLIl</id>
+        <link href="https://kveln.cn/post/WpCEDNLIl">
         </link>
         <updated>2019-07-10T10:26:38.000Z</updated>
         <summary type="html"><![CDATA[<p>今天接触到了两个词，“损失厌恶”和“沉没成本”，感觉挺有意思的，整理了一下相关的概念和案例。</p>
@@ -266,8 +266,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[人生有三种困境]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/Three Dilemmas of Life/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/Three Dilemmas of Life/index.html">
+        <id>https://kveln.cn/post/Three Dilemmas of Life</id>
+        <link href="https://kveln.cn/post/Three Dilemmas of Life">
         </link>
         <updated>2019-07-03T07:29:08.000Z</updated>
         <summary type="html"><![CDATA[<p>人生有三种困境，孤独、痛苦、恐惧  ----------  史铁生</p>
@@ -284,8 +284,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[多抓鱼百货购物开箱]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/duozhuayu/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/duozhuayu/index.html">
+        <id>https://kveln.cn/post/duozhuayu</id>
+        <link href="https://kveln.cn/post/duozhuayu">
         </link>
         <updated>2019-07-01T14:17:35.000Z</updated>
         <summary type="html"><![CDATA[<p>6.28日晚上多抓鱼推送了一篇微信推文，说是搞了个多抓鱼百货。女朋友看了看上架的商品，发现有一个静音小电扇，对一个在夏天不喜欢开空调的人来说，小电扇是一个很不错的选择，就马上下单了。原价159，多抓鱼卖58，就是下面这个小电扇</p>
@@ -308,8 +308,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[有道云笔记的网页剪报插件失效]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/youdaoyunnote/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/youdaoyunnote/index.html">
+        <id>https://kveln.cn/post/youdaoyunnote</id>
+        <link href="https://kveln.cn/post/youdaoyunnote">
         </link>
         <updated>2019-06-13T08:18:29.000Z</updated>
         <summary type="html"><![CDATA[<p>在谷歌浏览器上安装了有道云笔记的插件，很久没用后，今天点击插件想要收藏一篇文章，发现有道云笔记chrome的插件（网页剪报）失效不能用，点击没反应，后来上网搜索了一些方法，最终解决了，这里记录一下最后的解决方法。</p>
@@ -324,8 +324,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[使用Coding Page 和Gridea搭建免费个人博客]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/11/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/11/index.html">
+        <id>https://kveln.cn/post/11</id>
+        <link href="https://kveln.cn/post/11">
         </link>
         <updated>2019-05-30T15:15:18.000Z</updated>
         <summary type="html"><![CDATA[<p>对于想要在网上有自己的一个博客网站的人来说，常用的有Wordpress、Typecho 这些免费搭建工具。但是对一些小白来说，需要接触到域名、空间购买、数据库设置这些，还是有些难度的。在前段时间，偶然在网上发现了这个Gridea工具。</p>
@@ -335,7 +335,7 @@
 <p>Gridea 是 一个基于Github Pages 和 Coding Page 静态博客管理工具。我被它简洁清新的界面所吸引，于是先将博客迁移到 Github上，但是由于 Github 服务器在国外的原因，国内访问还是有点慢的，于是又将博客迁移到了 Coding Page 上，下面介绍一下搭建的过程。</p>
 <h2 id="gridea-介绍">Gridea 介绍</h2>
 <p>官方主页：<a href="https://gridea.dev/">https://gridea.dev/</a></p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530110900.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530110900.png" alt=""></figure>
 <p>更多介绍，请参照官网</p>
 <h2 id="coding-page介绍">Coding Page介绍</h2>
 <p>Coding Pages 服务是 Coding.net 推出的免费静态网站托管服务,拥有自定义域名,免费 SSL 证书等特性。目前已经被腾讯收购。</p>
@@ -353,50 +353,50 @@
 <h2 id="修改用户名">修改用户名</h2>
 <p>点击个人设置，修改用户名，用户名会显示在博客地址中，默认博客地址是&quot;用户名.coding.me&quot;,默认的用户名太长，展现不合适,所以要修改一下。其它的绑定手机、邮箱、密码这些也可以设置一下。</p>
 <p>修改用户名</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530122954.png" alt=""></p>
+<figure data-type="image" tabindex="2"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530122954.png" alt=""></figure>
 <p>我将用户名设置为kkxi</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530123950.png" alt=""></p>
+<figure data-type="image" tabindex="3"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530123950.png" alt=""></figure>
 <p>还有邮箱、密码这些。设置完上面这些信息后，就可以开启开始开启Page了。</p>
 <h2 id="开启page服务">开启Page服务</h2>
 <p>点击加号新建项目，项目名称自己自定义：kkxi2019（这里可以填用户名，填用户名的话，博客的地址会短一点，但是我填kkxi的时候，在后来的远程连接检测中一直检测失败，后来我把项目名称由 kkxi 改成 kkxi2019 后，检测远程连接就成功了）,项目地址点击后自动填充为 kkxi2019 ,项目描述可以随便填，选择git仓库，公开源代码，勾选启用 README.md 文件初始化项目，然后点击新建项目。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530124443.png" alt=""></p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530212702.png" alt=""></p>
+<figure data-type="image" tabindex="4"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530124443.png" alt=""></figure>
+<figure data-type="image" tabindex="5"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530212702.png" alt=""></figure>
 <p>点击 Page 服务，开启 Page。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530233113.png" alt=""></p>
+<figure data-type="image" tabindex="6"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530233113.png" alt=""></figure>
 <p>点击我已阅读后，一键开启 page 服务。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530130122.png" alt=""></p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530213419.png" alt=""></p>
+<figure data-type="image" tabindex="7"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530130122.png" alt=""></figure>
+<figure data-type="image" tabindex="8"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530213419.png" alt=""></figure>
 <p>显示Page服务运行中，则证明Page服务已经开启成功了。现在博客地址是<a href="http://kkxi.coding.me/">http://kkxi.coding.me/</a>,后面你也可以在设置中绑定自己的自定义域名。</p>
 <p>开启https。点击设置，选择强制开启https.</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530131426.png" alt=""></p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530132211.png" alt=""></p>
+<figure data-type="image" tabindex="9"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530131426.png" alt=""></figure>
+<figure data-type="image" tabindex="10"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530132211.png" alt=""></figure>
 <p>绑定自定义域名。如果没有自己的域名，这一步可以略过。</p>
 <p>首先给自定义域名添加解析，见官方文档<a href="https://coding.net/help/doc/pages/domain.html">https://coding.net/help/doc/pages/domain.html</a></p>
 <p>然后在开发者平台上绑定已经解析的自定义域名,</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530133356.png" alt=""></p>
+<figure data-type="image" tabindex="11"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530133356.png" alt=""></figure>
 <p>看到状态显示正常了，就说明已经绑定成功了。可以用新的域名来访问博客了。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530134432.png" alt=""></p>
+<figure data-type="image" tabindex="12"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530134432.png" alt=""></figure>
 <h2 id="新建访问令牌">新建访问令牌</h2>
 <p>接下来新建一个访问令牌，后面配置Gridea的时候需要使用。在个人中心中找到访问令牌后新建</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530135510.png" alt=""></p>
+<figure data-type="image" tabindex="13"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530135510.png" alt=""></figure>
 <p>权限全选上后，勾选创建令牌</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530140702.png" alt=""></p>
+<figure data-type="image" tabindex="14"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530140702.png" alt=""></figure>
 <p>输入密码，密码就是在个人中心设置的</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530140820.png" alt=""></p>
+<figure data-type="image" tabindex="15"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530140820.png" alt=""></figure>
 <p>创建完成后复制令牌信息，保存好，后面配置的时候要用。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530141203.png" alt=""></p>
+<figure data-type="image" tabindex="16"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530141203.png" alt=""></figure>
 <h2 id="开始配置gridea">开始配置Gridea</h2>
 <h2 id="博客基础配置">博客基础配置</h2>
 <p>按照图中说明配置好相关参数，然后点击保存，保存成功后再点击检测远程连接，显示远程连接成功的话，就表示客户端可以连接我们的博客啦。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530214930.png" alt=""></p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530215607.png" alt=""></p>
+<figure data-type="image" tabindex="17"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530214930.png" alt=""></figure>
+<figure data-type="image" tabindex="18"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530215607.png" alt=""></figure>
 <p>点击预览，就可以本地查看我们的博客了，或者此时点击同步，我们也可以看到博客内容已经上传了。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530220619.png" alt=""></p>
+<figure data-type="image" tabindex="19"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530220619.png" alt=""></figure>
 <p>接下来我们要进行博客的设置</p>
 <h2 id="菜单配置">菜单配置</h2>
 <p>现在我们点击菜单，会显示404，我们要对菜单进行初始化</p>
 <p><strong>首页</strong>：点击选择homepage后保存。归档选择Archves,标签选择Tags,关于选择关于。然后点击同步，这样我们的菜单就都能点击了。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530220909.png" alt=""></p>
+<figure data-type="image" tabindex="20"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530220909.png" alt=""></figure>
 <h2 id="favicon配置">Favicon配置</h2>
 <p>自己配置即可</p>
 <h2 id="头像配置">头像配置</h2>
@@ -412,16 +412,16 @@
 </blockquote>
 <p>你可以按照 <a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk 的文档</a> 进行相关字段配置，或者按照下面的步骤操作。</p>
 <p>首先你需要有一个 Github帐号，<a href="https://github.com/">https://github.com/</a>，并且建立一个Github仓库用来放评论。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530223822.png" alt=""></p>
+<figure data-type="image" tabindex="21"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530223822.png" alt=""></figure>
 <p>然后需要有一个 <strong>Github OAuth Application</strong>，点击<a href="https://github.com/settings/applications/new">这里</a>创建，字段填写可以参照下图</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530225821.png" alt=""></p>
+<figure data-type="image" tabindex="22"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530225821.png" alt=""></figure>
 <p>创建完成后可将「Client ID」和「Client Secret」复制一下，保存到本地。</p>
 <p>接下来就可以去应用里面填写对应的信息，并开启评论,保存并同步。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230416.png" alt=""></p>
+<figure data-type="image" tabindex="23"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230416.png" alt=""></figure>
 <p>此时打开博客，页面下方评论会显示要求初始化，这个时候使用Github帐号登录一下就行了</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230445.png" alt=""></p>
+<figure data-type="image" tabindex="24"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230445.png" alt=""></figure>
 <p>登录后</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230645.png" alt=""></p>
+<figure data-type="image" tabindex="25"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230645.png" alt=""></figure>
 <p>好了，到此为止，你就可以正常的使用Gridea开始写作了。每次在客户端做出修改后，必须保存同步，才能看到修改效果。</p>
 <h2 id="其它参考资料">其它参考资料</h2>
 <p><strong>Github博客上手教程</strong> <a href="https://fehey.com/post/hve-notes-start/">https://fehey.com/post/hve-notes-start/</a></p>
@@ -430,8 +430,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[产品经理如何拒绝不合理的需求]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/How do product managers reject unreasonable demands/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/How do product managers reject unreasonable demands/index.html">
+        <id>https://kveln.cn/post/How do product managers reject unreasonable demands</id>
+        <link href="https://kveln.cn/post/How do product managers reject unreasonable demands">
         </link>
         <updated>2019-05-28T07:41:38.000Z</updated>
         <summary type="html"><![CDATA[<p>今天在知乎上看到有个问题:产品经理如何拒绝客户、领导不合理的需求？这个事情很常见，试着回答一下。</p>
@@ -485,8 +485,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[谷歌浏览器设置打开新标签页为自定义网站]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/谷歌浏览器设置打开新标签页为自定义网站/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/谷歌浏览器设置打开新标签页为自定义网站/index.html">
+        <id>https://kveln.cn/post/谷歌浏览器设置打开新标签页为自定义网站</id>
+        <link href="https://kveln.cn/post/谷歌浏览器设置打开新标签页为自定义网站">
         </link>
         <updated>2019-05-27T10:31:04.000Z</updated>
         <summary type="html"><![CDATA[<p>使用360极速浏览器等国内浏览器时，可以在新标签页设置自己自定义的网站，但是使用谷歌浏览器时，却不能使用，我在在网上找到了一个可以设置新标签页的插件，名叫New Tab Redirect。</p>
@@ -499,23 +499,23 @@
 <p>1.在打开的谷歌浏览器的扩展管理器最左侧选择扩展程序或直接输入：chrome://extensions/</p>
 <p>2.找到下载后解压的Chrome离线安装文件xxx.crx，然后将其从资源管理器中拖动到Chrome的扩展管理界面中，这时候用户会发现在扩展管理器的中央部分中会多出一个”拖动以安装“的插件按钮。</p>
 <p>3.松开鼠标就可以把当前正在拖动的插件安装到谷歌浏览器中去，就会自动安装，点击添加扩展程序。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140126.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140126.png" alt=""></figure>
 <p>4.配置新标签页跳转页面。点击Set Options ，设置Redirect URL.在输入框中输入在新标签页要打开的网址，点击Save即可。图中以百度为例，初次打开会提示“这是你想要的标签页吗”，点击“保留更改即可”</p>
 <p>步骤1</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140148.png" alt=""></p>
+<figure data-type="image" tabindex="2"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140148.png" alt=""></figure>
 <p>步骤2</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140217.png" alt=""></p>
+<figure data-type="image" tabindex="3"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140217.png" alt=""></figure>
 <p>步骤3</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140230.png" alt=""></p>
+<figure data-type="image" tabindex="4"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140230.png" alt=""></figure>
 <p>步骤4</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140242.png" alt=""></p>
+<figure data-type="image" tabindex="5"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529140242.png" alt=""></figure>
 <p><strong>官方下载的直接看第4步</strong></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[怎么用小程序赚钱]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/How Small Procedures Make Profits/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/How Small Procedures Make Profits/index.html">
+        <id>https://kveln.cn/post/How Small Procedures Make Profits</id>
+        <link href="https://kveln.cn/post/How Small Procedures Make Profits">
         </link>
         <updated>2019-04-30T04:38:56.000Z</updated>
         <content type="html"><![CDATA[<h2 id="江颖同程艺龙">江颖（同程艺龙）</h2>
@@ -874,8 +874,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[产品经理需要知道的数据指标(整理)]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/19/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/19/index.html">
+        <id>https://kveln.cn/post/19</id>
+        <link href="https://kveln.cn/post/19">
         </link>
         <updated>2019-03-03T14:04:44.000Z</updated>
         <summary type="html"><![CDATA[<p>整理了一下产品经理在工作中需要知道的常用的数据指标。</p>
@@ -979,8 +979,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[静态布局、自适应布局、流式布局、响应式布局、弹性布局等的概念和区别(转)]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/buju/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/buju/index.html">
+        <id>https://kveln.cn/post/buju</id>
+        <link href="https://kveln.cn/post/buju">
         </link>
         <updated>2018-04-12T09:11:49.000Z</updated>
         <summary type="html"><![CDATA[<p>静态布局、自适应布局、流式布局、响应式布局、弹性布局等的概念和区别，转自&quot;<a href="https://www.cnblogs.com/yanayana/p/7066948.html">笨鸟儿博客</a></p>
@@ -1131,8 +1131,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[我在故宫修文物观后感]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/My-Feelings-on-the-Masters-in-Forbidden-City/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/My-Feelings-on-the-Masters-in-Forbidden-City/index.html">
+        <id>https://kveln.cn/post/My-Feelings-on-the-Masters-in-Forbidden-City</id>
+        <link href="https://kveln.cn/post/My-Feelings-on-the-Masters-in-Forbidden-City">
         </link>
         <updated>2017-11-30T07:43:23.000Z</updated>
         <summary type="html"><![CDATA[<p>昨天晚上一口气看完了《我在故宫修文物》这部纪录片，其中有一个片段给我的印象很深。</p>
@@ -1156,8 +1156,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[语音人机交互]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/10/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/10/index.html">
+        <id>https://kveln.cn/post/10</id>
+        <link href="https://kveln.cn/post/10">
         </link>
         <updated>2017-07-31T07:41:41.000Z</updated>
         <summary type="html"><![CDATA[<p>这篇文章是前些天参加科大讯飞的知乎live“人机交互：如何更愉快地和 AI 唠嗑“的主讲人的讲课实录，在这里贴处来，作为一个记录吧。声明这篇文章仅作为个人学习所用，如有侵权请联系我删除。</p>
@@ -1171,10 +1171,10 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
 <li><a href="https://video.zhimg.com/videos/6aa4e38a713711e7840f0242ac112a17.mp4?auth_key=1501640516-0-0-c3ca5223e2b1d6d481cfe88b90c9a38a">演示2</a></li>
 </ol>
 <p>主讲人：人机交互主要研究人和计算机之间的信息交换，它主要包括人到计算机还有计算机到人的信息交换两部分，是以认知心理学、人机工程学、多媒体技术、虚拟现实技术这些密切相关的综合学科。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529160517.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529160517.png" alt=""></figure>
 <p>在PC时代，鼠标加键盘的人机交互是那个时代最伟大的发明，是人类与计算机交互最多的方式；本世纪初，智能手机、智能移动设备被发明和流行，人类进入了移动互联时代，那么在移动互联时代，人机交互最常见的方式就是多点触控、手写、手势以及一部分的语音交互；如今智能语音技术飞速发展，智能设备也从“能听会说”的语音应用走向“能理解会思考”的人工智能方向。随着智能终端的广泛普及，语音交互需求不断提升，语音技术和产品由后装不断向前装发展，并逐渐向芯片集成方向过渡。同时智能语音在更多垂直行业深入应用，推动垂直行业加快向智能化方向发展，智能硬件、智能家居、智能机器人便是下一个发力方向，也是智能语音新的市场增长点。互联网创新和产业互联网发展不断加快，“互联网化”已从趋势成为常态。智能语音在互联网化过程中转型发展，其市场格局将被重塑。</p>
 <p>讯飞开放平台从2010年提供的最基础的的语音听写、语音合成，到11、12、13年进阶的命令词识别、个性化语音、语义理解，智能问答和离线语音能力，我们所提供的语音语义能力变得越来越智能，越来越好用；不过我们的脚步并没有停止，随后在14、15年，我们顺应智能硬件以及人工智能等领域的需求，相继发布了云+端融合、语音唤醒、人脸、声纹识别、语音评测、麦克风阵列、讯推、用户级唤醒等高级能力。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135054.png" alt=""></p>
+<figure data-type="image" tabindex="2"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135054.png" alt=""></figure>
 <p>2015年12月份，讯飞发布全新的人工智能AIUI，为人工智能时代提供了一套软硬件一体的人机交互解决方案。</p>
 <p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135232.png" alt=""><br>
 <img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135318.png" alt=""><br>
@@ -1184,7 +1184,7 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
 <img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135343.png" alt=""><br>
 <img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135353.png" alt=""></p>
 <p>传统的人机交互语音链路就如上图所示，在前端设备接受用户说话的语音，然后在本地或者云端做语音识别，将语音识别成文本，然后对识别出的文本做语义理解，对于理解的结果给出一定的处理，然后给出回答的文本，通过tts将文本合成为语音，传回客户端进行播报。这种简单的人机交互链路必然会出现前面所说的四大痛点，导致用户体验的下降，最终使用户对语音人机交互失去信心。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135429.png" alt=""></p>
+<figure data-type="image" tabindex="3"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135429.png" alt=""></figure>
 <p>自然人机交互远比我们的单点的技术要复杂，要解决远场、句式、断句、还有上下文等各个技术点。完整的语音识别是需要软硬件一体、前后端相结合过程。从整个流程上来说，大致有音频采集、语音唤醒、声源定位、人声检测、断句、语音听写、语义理解几个主要的过程。</p>
 <p>远场的人机交互场景上基本上都是采用多麦克风阵列方案，采集的是多通道音频和参考信号，主要是在硬件的基础上做好处理，减少因为硬件结构带来的噪音源，同时结合麦克风阵列的一个定向识音，采用前端声学的算法来解决降噪、混响、还有回声说带来的影响，</p>
 <p>唤醒是人机交互对话的主要出发方式，就像你要和一个人说话，你就得喊他的名字一样，在语音对话的过程中仍然要支持持续的唤醒，就像你在和一个人对话，另外一个人喊你也是需要响应的。机器被唤醒后需要知道说话人的方位，这样才能定向的识音做降噪处理，同时增强说话人的声音，这个定位主要是运用多麦克风阵列的波束行程技术，通过唤醒时间运算得到的。</p>
@@ -1192,19 +1192,19 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
 <p>语音断句是为了判断一个说了一句完整的内容，一便进行识别理解给予响应，对于识别来说首先要满足的就是持续的音频流的识别，作为持续的语音交互识别方案，不可避免的就要吸收很多无效的语音，所以局势是必须的。还有一些无关的语音，必须经过过滤，否则就会造成对话混乱。</p>
 <p>最后把有效的语音送到支持上下文对话的引擎中进行语义理解，语义理解不止包含对用户的说话的意图，还有包括内容的获取，形成完整的交互链路。</p>
 <p>语义理解获取的结最终交由TTS模块进行语音合成，AIuI目前的模块支持情感合成和场景合成，也就是说在不同的情境下合成带有不同情感色彩的语音，高兴、生气还有悲伤等等。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135447.png" alt=""></p>
+<figure data-type="image" tabindex="4"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135447.png" alt=""></figure>
 <p>远场识别需要前后端结合去完成，一方面在前端使用麦克风阵列的硬件，通过波束成形和精准定位的方案可以在前端解决远场拾音、噪音、混响等问题。但是因为近场和远场的语音信号有一定的差异，所以在后端的语音识别上还需要和基于深度神经网络学习的训练针对远场的声学识别模型，这样才能解决识别率的问题。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135519.png" alt=""></p>
+<figure data-type="image" tabindex="5"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135519.png" alt=""></figure>
 <p>人与人交互最大的特点就是持续、双向、可打断。</p>
 <p>全双工交互是一个全链路贯穿的过程，不止是持续的拾音和网络传输过程，更需要包括持续的语音唤醒，人声的检测，智能断句，无效语音句式。</p>
 <p>传统的语音唤醒方案中是一次唤醒过后进行语音识别和交互，交互完成后进入待唤醒状态，但是在实际的人与人交流中，人是可以和多个人对话且支持被其他人插入的，所以全双工的模式必须是可插入和可打断的。</p>
 <p>全双工交互作为一个持续的交互过程，语音的识别和理解，需要能够做出快速的响应。这就需要前端的人声检测和智能断句。传统的断句是基于能量的检测来判定，但是有两个主要缺点，一是无法解决噪音和无效的语音，另外就是对说话人的要求较高，中间不能有停顿。如果后端点设置的太端，容易造成截断；后端点太长，又会造成响应不及时。</p>
 <p>所以为了解决这两个问题，端点检测，在AIUI中采用基于模型的人声检测和基于语义的断句。基于模型的检测可以有效解决噪音和无效语音，这块主要是通过采集不同的语音数据，基于深度神经网络的训练的声学模型，可以过滤一部分噪音，把有效的语音传送到云端，进行持续的交互。<br>
 持续的音频流识别首先要做的也是要进行断句，语义断句主要是在识别过程中，用语义信息来预测和判定。如果检测到一句完整的有效内容，可将结果送入语义理解模块，从而保证结果可以最快返回到端上。另外基于语义的断句，要解决的一个主要问题就是用户的停顿，这在实际的人机交互中，是很常见的，以点歌为例，用户经常会说，我想听⋯⋯.周杰伦的歌，但是中间会有停顿，也许是在一秒，也许还是两秒，这时候后端的断句引擎必须要能解决这种问题，停顿较短，引擎需要等待后续的有效音频，给出完整的理解内容。但如果用户停顿时间过长，后端引擎需要给出响应，比如回答：您要听谁的歌，做出更好的引导提示。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135542.png" alt=""></p>
+<figure data-type="image" tabindex="6"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135542.png" alt=""></figure>
 <p>用户为了完成一个目标，如点歌或者订票，可能是需要多轮的交互或者是对话，才能填满信息槽，上下文与业务的深度结合，基于内容的主动式提问，多对话的场景管理，跨场景信息共享，常识记忆来解决这些问题。</p>
 <p>语义理解的系统升级为基于贴狐的深度学习系统，可以很好的解决语义理解的消歧问题。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135556.png" alt=""></p>
+<figure data-type="image" tabindex="7"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135556.png" alt=""></figure>
 <p>产品简单易用，接口和使用简单，大家以前看到的是单点的录音、唤醒、VAD、识别、合成等等这些接口，使用AIUI方案，你看到的是人机交互信息，只需要被动响应，比如何时被唤醒、唤醒角度是多少，用户想干嘛，对于集成来说，真的很简单；<br>
 还提供产品的个性化定制能力，主要包括唤醒词定制、发音人定制、语义对话定制、应用热词定制、流程参数配置等，这些都是在Web平台上开放的功能，开发者可以根据产品需求，在平台上进行个性化的配置和编辑。</p>
 <p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529135610.png" alt=""><br>
@@ -1220,8 +1220,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[大产品小设计]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/Design Collection/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/Design Collection/index.html">
+        <id>https://kveln.cn/post/Design Collection</id>
+        <link href="https://kveln.cn/post/Design Collection">
         </link>
         <updated>2017-07-30T07:36:30.000Z</updated>
         <summary type="html"><![CDATA[<p>这个是我最近想做的一个关于产品设计细节的一个专题，收集日常碰到的有趣的、有意思的设计，作为一个归档。</p>
@@ -1231,22 +1231,22 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
 <p>&lt;2017-7-30&gt;</p>
 <h2 id="qq底部标签栏动态图标">QQ底部标签栏动态图标</h2>
 <p>当消息icon被选中的时候，联系人icon和动态icon都会扭过头来，反之选中其它的两个icon被选中也是如此，好像再说快来看我，给整个APP增加了趣味性，也符合QQ年轻化的定位。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134253.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134253.png" alt=""></figure>
 <h2 id="掘金pc端登录动画b站手机端的登录也是类似但是截不了图">掘金PC端登录动画（b站手机端的登录也是类似，但是截不了图）</h2>
 <p>登录弹窗，在输入账号的时候，小熊的眼睛是睁开的，当密码输入框获取焦点的时候，小熊会用胖嘟嘟的手捂住眼睛，感觉萌萌哒，让登录这个乏味的过程也变得有趣。</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134405.png" alt=""></p>
+<figure data-type="image" tabindex="2"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134405.png" alt=""></figure>
 <h2 id="脉脉添加好友成功后的打招呼提示">脉脉添加好友成功后的打招呼提示</h2>
 <p>经常有这样的情况，比如说在脉脉上发现一个大神，就加他为好友，对方同意后，自己又不知道如何破冰，如何开始一段聊天，脉脉这个提示功能设计的就是为了想解决这个问题，它会根据对方的情况和本人的情况智能推荐三个话题，你可以发送过去，作为打招呼的开始。目前发现两种不同的设计，一种是对方是你的校友，另一种对方不是你的校友，都有不同的提示语。当然还有其它的情况，比如对方是你的同事，是你的老乡等等这些情况，有待后续发现。</p>
 <p>第一种对方是你的好友</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134426.png" alt=""></p>
+<figure data-type="image" tabindex="3"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134426.png" alt=""></figure>
 <p>第一种对方不是你的好友</p>
-<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134454.png" alt=""></p>
+<figure data-type="image" tabindex="4"><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190529134454.png" alt=""></figure>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[常用的产品设计理论和模型]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/1/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/1/index.html">
+        <id>https://kveln.cn/post/1</id>
+        <link href="https://kveln.cn/post/1">
         </link>
         <updated>2017-05-17T12:14:26.000Z</updated>
         <summary type="html"><![CDATA[<p>整理了一下常用的产品设计理论和模型，内容来自于网络整理，持续更新。</p>
@@ -1290,7 +1290,7 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
 <h2 id="席克定律">席克定律</h2>
 <p>该定律的描述为：一个人面临的选择（n）越多，所需要作出决定的时间（T）就越长。用数学公式表达为反应时间 T=a+b log2（n）。在人机交互中界面中选项越多，意味着用户做出决定的时间越长。</p>
 <p>在更多选择面前，人们往往会拿不定主意以至于放弃。在移动端场景下，本身就没有足够的空间来容纳非常多的东西，再加上多选择带来的弊端，所以移动端的设计一定要优先考虑内容的优先级，让用户不要做太多选择。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563863249329-assets/web-upload/666a07b5-34d1-4eb9-8d85-5f8b858aa567.png" alt=""></p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563863249329-assets/web-upload/666a07b5-34d1-4eb9-8d85-5f8b858aa567.png" alt=""></figure>
 <h2 id="古腾堡法则">古腾堡法则</h2>
 <p>左上角是第一视觉落点区，而右下角则是最终视觉落点区，与之相对，右上角和左下角则是视觉盲点。因此，采用对角线平衡通常都是一个好设计所需要考虑的因素，因为设计师遵从了用户习惯性的眼动规律。<br>
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563863977727-assets/web-upload/5302f377-cc21-4894-a85e-b8b9e54ca938.png" alt=""></p>
@@ -1331,7 +1331,7 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
 <p>不论提供与否，对用户体验无影响或者影响不大，属于中性的需求，用户根本不在意这个东西。</p>
 <h3 id="反向型需求">反向型需求</h3>
 <p>又称逆向型需求，因为用户千差万别，不可能保证每个用户都有相同的喜好、习惯。这类需求提供的程度与用户的满意度成反比。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1563863859660-assets/web-upload/a7b2f657-2d94-4963-84f2-4a5b454ee548.jpeg" alt=""></p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1563863859660-assets/web-upload/a7b2f657-2d94-4963-84f2-4a5b454ee548.jpeg" alt=""></figure>
 <p><a href="https://www.zhihu.com/question/22989667">知乎-什么是卡诺KANO模型？</a></p>
 <h2 id="rfm模型">RFM模型</h2>
 <p>RFM模型是衡量客户价值和客户创利能力的重要工具和手段。在众多的<a href="https://baike.baidu.com/item/%E5%AE%A2%E6%88%B7%E5%85%B3%E7%B3%BB%E7%AE%A1%E7%90%86">客户关系管理</a>(CRM)的分析模式中，RFM模型是被广泛提到的。该机械模型通过一个客户的近期购买行为、购买的总体频率以及花了多少钱3项指标来描述该客户的价值状况。</p>
@@ -1339,14 +1339,14 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
 <p>R——最近一次消费 (Recency)；客户最近一次交易时间的间隔。R值越大，表示客户交易发生的日期越久，反之则表示客户交易发生的日期越近。</p>
 <p>F——消费频率 (Frequency)；户在最近一段时间内交易的次数。F值越大，表示客户交易越频繁，反之则表示客户交易不够活跃。</p>
 <p>M——消费金额 (Monetary)；客户在最近一段时间内交易的金额。M值越大，表示客户价值越高，反之则表示客户价值越低。</p>
-<p><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/264397/1550631900808-7585d7f1-6e84-442f-b198-33f562dcede0.jpeg" alt=""></p>
+<figure data-type="image" tabindex="3"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/264397/1550631900808-7585d7f1-6e84-442f-b198-33f562dcede0.jpeg" alt=""></figure>
 <p><a href="https://www.jianshu.com/p/4b60880f24e2">RFM模型如何实际应用？</a></p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>F:/mynotebook/mynote/Gridea/output/post/about/index.html</id>
-        <link href="F:/mynotebook/mynote/Gridea/output/post/about/index.html">
+        <id>https://kveln.cn/post/about</id>
+        <link href="https://kveln.cn/post/about">
         </link>
         <updated>2017-01-01T11:09:48.000Z</updated>
         <content type="html"><![CDATA[<p>这是关于的页面，可以在这里向世界介绍你！</p>
