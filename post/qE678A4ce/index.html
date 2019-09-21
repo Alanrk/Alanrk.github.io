@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>为你的Gridea博客加上Valine评论系统 | Kveln&#39;Blog</title>
+<meta name="description" content=" A Product Manager">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="F:/mynotebook/mynote/Gridea/output/favicon.ico?v=1568872102531">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="F:/mynotebook/mynote/Gridea/output/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="F:/mynotebook/mynote/Gridea/output">
+        <img src="F:/mynotebook/mynote/Gridea/output/images/avatar.png?v=1568872102531" class="site-logo">
+        <h1 class="site-title">Kveln&#39;Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/post/about//index.html" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/archives/index.html" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/movie.html/index.html" class="site-nav">
+            观影
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/gallery.html/index.html" class="site-nav">
+            摄影
+          </a>
+        
+      
+        
+          <a href="http://www.pmdaily.cc/" class="site-nav">
+            导航
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/atom.xml/index.html" class="site-nav">
+            RSS
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+       A Product Manager
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="F:/mynotebook/mynote/Gridea/output/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">为你的Gridea博客加上Valine评论系统</h2>
+            <div class="post-date">2019.07.15</div>
+            
+            <div class="post-content">
+              <p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
+<!-- more -->
+<h2 id="valine介绍">Valine介绍</h2>
+<p>Valine - 一款快速、简洁且高效的无后端评论系统。</p>
+<p>官网地址：<a href="https://valine.js.org/">https://valine.js.org/</a></p>
+<h2 id="leancloud注册及配置">leancloud注册及配置</h2>
+<p>leancloud注册及配置见<a href="https://valine.js.org/quickstart.html">快速开始文档</a></p>
+<h2 id="修改主题模板">修改主题模板</h2>
+<p>在Gridea theme模板的<strong>head.ejs</strong>中引入</p>
+<pre><code class="language-html">&lt;head&gt;
+    ..
+    &lt;script src='//unpkg.com/valine/dist/Valine.min.js'&gt;&lt;/script&gt;
+    ...
+&lt;/head&gt;
+</code></pre>
+<p>在<strong>post.ejs</strong>文章详情页模板中文章末尾的位置添加下面的代码</p>
+<pre><code class="language-html">&lt;div id=&quot;vcomments&quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        new Valine({
+            el: '#vcomments',
+            appId: '&lt;API_ID&gt;',
+            appKey: '&lt;API_Key&gt;'
+        })
+    &lt;/script&gt;
+</code></pre>
+<p>appid和和appkey替换成leancloud中的应用key即可。修改完成后点击保存，然后同步，就可以了。记得在Gridea客户端中把配置中的评论关掉。</p>
+<p>打开文章详情页，显示评论框就成功了。</p>
+<img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170592469-assets/web-upload/9209fe50-a1b7-47e2-bc51-5cbb67b0931d.png" referrerpolicy="no-referrer" alt="">
+<h2 id="使用修改版本的valine-by-deserts">使用修改版本的valine--by  <a href="https://deserts.io/diy-a-comment-system/">Deserts</a></h2>
+<p>作者教程地址：<a href="https://deserts.io/diy-a-comment-system/">https://deserts.io/diy-a-comment-system/</a></p>
+<p>这是一个修改版本的valine，默认评论框是不显示的，点击才显示评论框，并且增加了表情包。本站使用的是修改版本的valine评论系统。</p>
+<img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170803350-assets/web-upload/bd5913e0-6031-45d0-ac58-07dab805d8d6.png" referrerpolicy="no-referrer" alt="">
+点击后
+<img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170833611-assets/web-upload/e99b404c-e918-496e-a9fc-afd88f64bb83.png" referrerpolicy="no-referrer" alt="">
+同样需要先注册leancloud,以及[配置leancloud](https://valine.js.org/quickstart.html)
+<h2 id="修改主题模板-2">修改主题模板</h2>
+<p>在<strong>post.ejs</strong>文章详情页模板中文章末尾的位置添加下面的代码</p>
+<pre><code class="language-html">&lt;!--载入js，在&lt;/body&gt;之前插入即可--&gt;
+    &lt;!--Leancloud 操作库:--&gt;
+    &lt;script src=&quot;//cdn1.lncld.net/static/js/3.0.4/av-min.js&quot;&gt;&lt;/script&gt;
+    &lt;!--Valine 的核心代码库--&gt;
+    &lt;script src=&quot;/media/scripts/Valine.min.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;comment&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
+    new Valine({
+        // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+        av: AV, 
+        el: '.comment',
+	      lang: 'zh-cn',//设置评论语言
+        emoticon_url: 'https://cloud.panjunwen.com/alu',
+  emoticon_list: [&quot;狂汗.png&quot;,&quot;不说话.png&quot;,&quot;汗.png&quot;,&quot;坐等.png&quot;,&quot;献花.png&quot;,&quot;不高兴.png&quot;,&quot;中刀.png&quot;,&quot;害羞.png&quot;,&quot;皱眉.png&quot;,&quot;小眼睛.png&quot;,&quot;暗地观察.png&quot;],
+  app_id: '你的id',
+  app_key: '你的key',
+  placeholder: '评论留言'
+    });
+&lt;/script&gt;    
+</code></pre>
+<h3 id="注意">注意</h3>
+<p>Valine.min.js,你可以使用我这个站点的，把它<a href="https://kveln.cn/media/scripts/Valine.min.js">下载</a>下来，放到主题模板文件中的media中，注意路径。</p>
+<p>本站使用的是leancloud国际站点，添加代码后，发现显示错误401、error、Unauthorized.<br>
+经过<a href="https://miracol.cn/">文中君</a>提醒，手动在leancloud应用-存储中添加Comment这个class就可以了。</p>
+<img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563172735024-assets/web-upload/9ebc6aff-e198-4484-9bc2-1faf98875415.png" referrerpolicy="no-referrer" alt="">
+<h2 id="使用valine-admin管理评论">使用Valine Admin管理评论</h2>
+<p>Valine Admin主要实现评论邮件通知、评论管理、垃圾评论过滤等功能。支持完全自定义的邮件通知模板。</p>
+<p>安装教程：<a href="https://github.com/DesertsP/Valine-Admin">Valine Admin安装教程</a></p>
+<h2 id="enjoy-it">Enjoy it😊!</h2>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/DUYsuYV5q/index.html" class="tag">
+                    Gridea
+                  </a>
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/FMWQBqUAk/index.html" class="tag">
+                    建站技巧
+                  </a>
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/XR0v0Jc2-/index.html" class="tag">
+                    分享
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="F:/mynotebook/mynote/Gridea/output/post/WpCEDNLIl/index.html">
+                  <h3 class="post-title">
+                    损失厌恶和沉没成本
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>

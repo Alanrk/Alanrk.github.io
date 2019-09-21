@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>损失厌恶和沉没成本 | Kveln&#39;Blog</title>
+<meta name="description" content=" A Product Manager">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="F:/mynotebook/mynote/Gridea/output/favicon.ico?v=1568872102531">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="F:/mynotebook/mynote/Gridea/output/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="F:/mynotebook/mynote/Gridea/output">
+        <img src="F:/mynotebook/mynote/Gridea/output/images/avatar.png?v=1568872102531" class="site-logo">
+        <h1 class="site-title">Kveln&#39;Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/post/about//index.html" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/archives/index.html" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/movie.html/index.html" class="site-nav">
+            观影
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/gallery.html/index.html" class="site-nav">
+            摄影
+          </a>
+        
+      
+        
+          <a href="http://www.pmdaily.cc/" class="site-nav">
+            导航
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/atom.xml/index.html" class="site-nav">
+            RSS
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+       A Product Manager
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="F:/mynotebook/mynote/Gridea/output/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">损失厌恶和沉没成本</h2>
+            <div class="post-date">2019.07.10</div>
+            
+            <div class="post-content">
+              <p>今天接触到了两个词，“损失厌恶”和“沉没成本”，感觉挺有意思的，整理了一下相关的概念和案例。</p>
+<!-- more -->
+<h2 id="损失厌恶">#损失厌恶</h2>
+<h3 id="概念">概念</h3>
+<p>损失厌恶是指人们面对同样数量的收益和损失时，认为损失更加令他们难以忍受。同量的损失带来的负效用为同量收益的正效用的2.5倍。损失厌恶反映了人们的风险偏好并不是一致的，当涉及的是收益时，人们表现为风险厌恶；当涉及的是损失时，人们则表现为风险寻求。</p>
+<h3 id="案例">案例</h3>
+<p>给你两个选择，一个选择是给你3000美元，一个选择是有80%的机会赢得4000美元。你是愿意稳稳当当地拿3000美元，还是80%赢取4000美元的机会(以及20%两手空空的可能性)?几乎人人都偏爱稳拿3000美元的选项，而不选择赌博。这没什么好奇怪的。为了让事情变得更有意思，特沃斯基出了个巧妙的主意。在每一笔数额前头摆上一个“负号”，下面这个例子可能你会更容易懂一些。</p>
+<p>假设有人起诉你，要你赔偿4000美元。你是愿意现在花3000美元调解(固定的损失，-3000)呢，还是去打官司，你事先就知道有80%的可能性会输，需要全额偿付(-4000)，有20%的机会贏，如果赢了，一个子儿都不出(不考虑法律费用)。</p>
+<p>要是人们对风险的态度一致，对第二个问题的回答似乎应该跟前一个相同。可大多数人并不是这么想的。绝大多数人拒绝确凿的损失，倾向于上庭打官司搏一把。思路是这样，“我可不想损失几千美元，只有打官司才有可能避免它。损失3000块还是4000块，区别没那么大。</p>
+<hr>
+<p>某公司赚取的利润十分微薄。它所在的社区，正经历经济衰退，虽然尚未通货膨胀，但失业人口庞大。许多人都急于去该公司工作。公司决定今年减薪7%。62% 的人认为这不公平。</p>
+<p>换一种形式:该社区失业人口众多，通货膨胀率达12.....该公司决定今年只提薪5%。，78%的人说可以接受。</p>
+<p>但事实上，在上述两个版本中，工人所得的结果几乎是一样的。其他商品价格提高12%,却只加薪5%，这跟购买力减少7%没什么两样。</p>
+<p>由此得出一个结论:通货膨胀是滑头老板最好的朋友。同样的原则也适用于奖金。大多数人的判断，一家陷入困境的公司可以不发10%的例行奖金，但减薪10%就不妥。(碰到不稳定的市场行情时，华尔街上的东家们一贯利用这一点)</p>
+<h3 id="小结">小结</h3>
+<p>第一，这个让我想起了中国古代有一个成语叫“朝三暮四”，来自于《庄子·齐物论》记载了狙公赋芧的故事，《列御寇·黄帝篇》则对这则故事进行了详细地扩写，说宋国有一个养猕猴的人，因为养的猕猴太多而家财匮乏，于是养猕猴的人就打算限制猕猴的食物。他对猴子说，早上给三个橡子，晚上给四个橡子，猴子大怒，直到他说早上四个晚上三个，猴子才欢喜。</p>
+<p>第二，人类天生对损失更敏感，在决策时更偏向于避免损失。</p>
+<p>第三，买涨不买跌。</p>
+<p>第四，生活中的例子：商家通常有各种满减，比如满xx元包邮，用户因为不想付邮费而选择购买更多的商品；各种满减券，满88才能使用某优惠券，为了避免这个优惠券过期掉，我们购买了更多的商品。；定金机制。</p>
+<h2 id="沉没成本不要为打翻的牛奶哭泣">#沉没成本：不要为打翻的牛奶哭泣</h2>
+<h3 id="概念-2">概念</h3>
+<p>人们在决定是否做一件事情的时候，不仅仅是看这件事情未来对他是不是有好处，同时也会注意自己是不是在过去，已经在这件事情上面有过投入，这是一种非常有趣而顽固的非理性的心理，我们称之为叫做沉没成本，也叫做协和效应。</p>
+<h3 id="案例-2">案例</h3>
+<p>20世纪60年代的时候，英法两国政府联合投资开发大型的超音速客机，叫做协和飞机。这种飞机的机身大、装饰豪华，而且速度特别快，其开发可以说是一场豪赌，单是设计一个引擎的成本可能就高达数亿元。可是项目刚开展不久，英法两国政府就发现了问题，这种机型的研发，那真的是非常的花钱，但这样的设计是否有市场，那还不知道。停止研发呢，也非常的可怕，因为一旦停止，那之前所有的投资都将付诸东流。到底是继续研发呢？还是停止往下投钱呢？项目就在纠结中不断前行，随着研发的工作越来越深入，他们其实就越无法作出停止研发的决定。协和飞机最终还是研究成功了，但是因为飞机有巨大的缺陷，比如说耗油大、噪音大、污染严重等等，以及运营成本实在是太高，不适合市场的竞争。最终，英法两国政府为此蒙受了巨大的损失。</p>
+<p>有人就说了，那你就不能早点放弃吗？本来分明是可以减少这个损失的，虽然这个道理听上去很简单啊，可是事实的情况是，人们往往都会陷入这样的误区，工作前期的投入成本越大，那么对他后续的投入也就会越多。人们在决定是否做一件事情的时候，他不仅仅是看这件事情，未来对他是不是有好处，同时也会注意自己是不是在过去，已经在这件事情上面有过投入，这是一种非常有趣而顽固的非理性的心理，我们称之为叫做沉没成本，也叫做协和效应。</p>
+<p>这种效应，每天都在我们身边发生。比如说，你花了50块钱，买了一张电影票，你在电影院看了一会儿之后，发现这个电影不好看，那这个时候你会选择继续看下去，还是会选择站起来就走呢？据调查，绝大部分人都会选择继续看下去，他们可能会一边玩着手机，都要一边坚持把电影看完，不想浪费掉那已经花出去的投资。</p>
+<h3 id="小结-2">小结</h3>
+<p>有目的性地制造对方的沉没成本，有利于提高交易的成功率。</p>
+<blockquote>
+<p>场景1：买衣服讨价还价</p>
+</blockquote>
+<p>买衣服时，在店里反复挑选，反复试穿，不停地跟店员沟通。店员在你身上花费了大量的精力，为了不让这部分沉没成本损失掉，可能会给你更多的优惠。</p>
+<blockquote>
+<p>场景2：跟客户收定金</p>
+</blockquote>
+<p>很多商业机构，在客户稍微有一点购买欲时，就会想方设法收客户一点点定金，可能1万元的东西只收500块定金。当客户回到家里，购买的冲动消失，为了不损失500元的定金，很有可能就会购买你的商品。这个也可以用损失厌恶来解释。</p>
+<blockquote>
+<p>场景3：各种互联网产品用积分、会员等形式量化用户的沉没成本，从而留住用户。</p>
+</blockquote>
+<h3 id="总结">总结</h3>
+<p>如果我们能够克服“损失厌恶”和“沉没成本”所带来的心理偏见，将有可能做出更加理性的判断和决策。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/bv0E3fXgY/index.html" class="tag">
+                    心理学
+                  </a>
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/XR0v0Jc2-/index.html" class="tag">
+                    分享
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="F:/mynotebook/mynote/Gridea/output/post/Three Dilemmas of Life/index.html">
+                  <h3 class="post-title">
+                    人生有三种困境
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>

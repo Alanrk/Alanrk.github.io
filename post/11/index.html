@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>使用Coding Page 和Gridea搭建免费个人博客 | Kveln&#39;Blog</title>
+<meta name="description" content=" A Product Manager">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="F:/mynotebook/mynote/Gridea/output/favicon.ico?v=1568872102531">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="F:/mynotebook/mynote/Gridea/output/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="F:/mynotebook/mynote/Gridea/output">
+        <img src="F:/mynotebook/mynote/Gridea/output/images/avatar.png?v=1568872102531" class="site-logo">
+        <h1 class="site-title">Kveln&#39;Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/post/about//index.html" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/archives/index.html" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/movie.html/index.html" class="site-nav">
+            观影
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/gallery.html/index.html" class="site-nav">
+            摄影
+          </a>
+        
+      
+        
+          <a href="http://www.pmdaily.cc/" class="site-nav">
+            导航
+          </a>
+        
+      
+        
+          <a href="F:/mynotebook/mynote/Gridea/output/atom.xml/index.html" class="site-nav">
+            RSS
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+       A Product Manager
+    </div>
+    <div class="site-footer">
+       | <a class="rss" href="F:/mynotebook/mynote/Gridea/output/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">使用Coding Page 和Gridea搭建免费个人博客</h2>
+            <div class="post-date">2019.05.30</div>
+            
+              <div class="feature-container" style="background-image: url('file:///F:/mynotebook/mynote/Gridea/output/post-images/11.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <p>对于想要在网上有自己的一个博客网站的人来说，常用的有Wordpress、Typecho 这些免费搭建工具。但是对一些小白来说，需要接触到域名、空间购买、数据库设置这些，还是有些难度的。在前段时间，偶然在网上发现了这个Gridea工具。</p>
+<!-- more -->
+<p>Gridea 是 一个基于Github Pages 和 Coding Page 静态博客管理工具。我被它简洁清新的界面所吸引，于是先将博客迁移到 Github上，但是由于 Github 服务器在国外的原因，国内访问还是有点慢的，于是又将博客迁移到了 Coding Page 上，下面介绍一下搭建的过程。</p>
+<h2 id="gridea-介绍">Gridea 介绍</h2>
+<p>官方主页：<a href="https://gridea.dev/">https://gridea.dev/</a></p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530110900.png" alt=""></p>
+<p>更多介绍，请参照官网</p>
+<h2 id="coding-page介绍">Coding Page介绍</h2>
+<p>Coding Pages 服务是 Coding.net 推出的免费静态网站托管服务,拥有自定义域名,免费 SSL 证书等特性。目前已经被腾讯收购。</p>
+<h2 id="下载安装git">下载安装Git</h2>
+<p>官方下载地址：<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<h2 id="下载安装gridea">下载安装Gridea</h2>
+<p>目前最新版本是<strong>v0.81</strong></p>
+<p>Github下载<br>
+地址：<a href="https://github.com/getgridea/gridea/releases">https://github.com/getgridea/gridea/releases</a>，选择最新版下载即可，由于Github下载比较慢，下面我给出一个百度网盘下载地址。</p>
+<p>百度网盘下载<br>
+<strong>Mac版</strong>：<a href="https://pan.baidu.com/s/1J3i11yDmuX6MY0A9ViJ-MA">网盘地址</a>提取码：als7<br>
+<strong>windows版</strong>：<a href="https://pan.baidu.com/s/15VMdxpC9Sp7r0qvJvvcLoA">网盘地址</a> 提取码：4v8q</p>
+<h2 id="注册腾讯云开发者平台帐号">注册腾讯云开发者平台帐号</h2>
+<p>注册腾讯云开发者平台 <a href="https://dev.tencent.com">https://dev.tencent.com</a>，使用微信扫码登录即可。</p>
+<h2 id="修改用户名">修改用户名</h2>
+<p>点击个人设置，修改用户名，用户名会显示在博客地址中，默认博客地址是&quot;用户名.coding.me&quot;,默认的用户名太长，展现不合适,所以要修改一下。其它的绑定手机、邮箱、密码这些也可以设置一下。</p>
+<p>修改用户名</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530122954.png" alt=""></p>
+<p>我将用户名设置为kkxi</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530123950.png" alt=""></p>
+<p>还有邮箱、密码这些。设置完上面这些信息后，就可以开启开始开启Page了。</p>
+<h2 id="开启page服务">开启Page服务</h2>
+<p>点击加号新建项目，项目名称自己自定义：kkxi2019（这里可以填用户名，填用户名的话，博客的地址会短一点，但是我填kkxi的时候，在后来的远程连接检测中一直检测失败，后来我把项目名称由 kkxi 改成 kkxi2019 后，检测远程连接就成功了）,项目地址点击后自动填充为 kkxi2019 ,项目描述可以随便填，选择git仓库，公开源代码，勾选启用 README.md 文件初始化项目，然后点击新建项目。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530124443.png" alt=""></p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530212702.png" alt=""></p>
+<p>点击 Page 服务，开启 Page。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530233113.png" alt=""></p>
+<p>点击我已阅读后，一键开启 page 服务。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530130122.png" alt=""></p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530213419.png" alt=""></p>
+<p>显示Page服务运行中，则证明Page服务已经开启成功了。现在博客地址是<a href="http://kkxi.coding.me/">http://kkxi.coding.me/</a>,后面你也可以在设置中绑定自己的自定义域名。</p>
+<p>开启https。点击设置，选择强制开启https.</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530131426.png" alt=""></p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530132211.png" alt=""></p>
+<p>绑定自定义域名。如果没有自己的域名，这一步可以略过。</p>
+<p>首先给自定义域名添加解析，见官方文档<a href="https://coding.net/help/doc/pages/domain.html">https://coding.net/help/doc/pages/domain.html</a></p>
+<p>然后在开发者平台上绑定已经解析的自定义域名,</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530133356.png" alt=""></p>
+<p>看到状态显示正常了，就说明已经绑定成功了。可以用新的域名来访问博客了。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530134432.png" alt=""></p>
+<h2 id="新建访问令牌">新建访问令牌</h2>
+<p>接下来新建一个访问令牌，后面配置Gridea的时候需要使用。在个人中心中找到访问令牌后新建</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530135510.png" alt=""></p>
+<p>权限全选上后，勾选创建令牌</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530140702.png" alt=""></p>
+<p>输入密码，密码就是在个人中心设置的</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530140820.png" alt=""></p>
+<p>创建完成后复制令牌信息，保存好，后面配置的时候要用。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530141203.png" alt=""></p>
+<h2 id="开始配置gridea">开始配置Gridea</h2>
+<h2 id="博客基础配置">博客基础配置</h2>
+<p>按照图中说明配置好相关参数，然后点击保存，保存成功后再点击检测远程连接，显示远程连接成功的话，就表示客户端可以连接我们的博客啦。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530214930.png" alt=""></p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530215607.png" alt=""></p>
+<p>点击预览，就可以本地查看我们的博客了，或者此时点击同步，我们也可以看到博客内容已经上传了。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530220619.png" alt=""></p>
+<p>接下来我们要进行博客的设置</p>
+<h2 id="菜单配置">菜单配置</h2>
+<p>现在我们点击菜单，会显示404，我们要对菜单进行初始化</p>
+<p><strong>首页</strong>：点击选择homepage后保存。归档选择Archves,标签选择Tags,关于选择关于。然后点击同步，这样我们的菜单就都能点击了。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530220909.png" alt=""></p>
+<h2 id="favicon配置">Favicon配置</h2>
+<p>自己配置即可</p>
+<h2 id="头像配置">头像配置</h2>
+<p>自己配置即可</p>
+<h2 id="主题配置">主题配置</h2>
+<p>Gridea自带了4款主题，你可以自己选择使用，还有其它的自定义配置，你可以尝试设置。</p>
+<p>也有主题市场可以选择，目前还比较少。</p>
+<p>主题市场：<a href="https://gridea.dev/themes/">https://gridea.dev/themes/</a></p>
+<h2 id="配置评论">配置评论</h2>
+<p><strong>Gridea</strong> 目前提供了 <a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a> 和 <a href="https://fehey.com/post/hve-notes-start/">Disqus</a> 两种评论系统支持。</p>
+<blockquote>
+<p>Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件。如果你博客使用的是 Gitalk 的话，建议你可以选择 Gitalk 来作为评论插件。</p>
+</blockquote>
+<p>你可以按照 <a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk 的文档</a> 进行相关字段配置，或者按照下面的步骤操作。</p>
+<p>首先你需要有一个 Github帐号，<a href="https://github.com/">https://github.com/</a>，并且建立一个Github仓库用来放评论。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530223822.png" alt=""></p>
+<p>然后需要有一个 <strong>Github OAuth Application</strong>，点击<a href="https://github.com/settings/applications/new">这里</a>创建，字段填写可以参照下图</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530225821.png" alt=""></p>
+<p>创建完成后可将「Client ID」和「Client Secret」复制一下，保存到本地。</p>
+<p>接下来就可以去应用里面填写对应的信息，并开启评论,保存并同步。</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230416.png" alt=""></p>
+<p>此时打开博客，页面下方评论会显示要求初始化，这个时候使用Github帐号登录一下就行了</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230445.png" alt=""></p>
+<p>登录后</p>
+<p><img src="https://kveln-1259146851.cos.ap-shanghai.myqcloud.com/postimg/20190530230645.png" alt=""></p>
+<p>好了，到此为止，你就可以正常的使用Gridea开始写作了。每次在客户端做出修改后，必须保存同步，才能看到修改效果。</p>
+<h2 id="其它参考资料">其它参考资料</h2>
+<p><strong>Github博客上手教程</strong> <a href="https://fehey.com/post/hve-notes-start/">https://fehey.com/post/hve-notes-start/</a></p>
+<p><strong>官方文档</strong><a href="https://gridea.dev/docs/">https://gridea.dev/docs/</a></p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/DUYsuYV5q/index.html" class="tag">
+                    Gridea
+                  </a>
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/FMWQBqUAk/index.html" class="tag">
+                    建站技巧
+                  </a>
+                
+                  <a href="F:/mynotebook/mynote/Gridea/output/tag/XR0v0Jc2-/index.html" class="tag">
+                    分享
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="F:/mynotebook/mynote/Gridea/output/post/How do product managers reject unreasonable demands/index.html">
+                  <h3 class="post-title">
+                    产品经理如何拒绝不合理的需求
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
