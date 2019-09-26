@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://kveln.cn</id>
+    <id>http://localhost:4000</id>
     <title>Kveln&apos;Blog</title>
-    <updated>2019-09-26T16:19:15.698Z</updated>
+    <updated>2019-09-25T14:15:10.386Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://kveln.cn"/>
-    <link rel="self" href="https://kveln.cn/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle> A Product Manager</subtitle>
-    <logo>https://kveln.cn/images/avatar.png</logo>
-    <icon>https://kveln.cn/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2019, Kveln&apos;Blog</rights>
     <entry>
         <title type="html"><![CDATA[阿里云轻应用服务器安装宝塔面板]]></title>
-        <id>https://kveln.cn/post/20</id>
-        <link href="https://kveln.cn/post/20">
+        <id>http://localhost:4000/post/20</id>
+        <link href="http://localhost:4000/post/20">
         </link>
         <updated>2019-09-03T14:08:34.000Z</updated>
         <summary type="html"><![CDATA[<p>今天通过阿里云开发者社区的开发者认证测试，就能获得一张优惠券<a href="https://developer.aliyun.com/certification?inviteCode=loxghi4ez6ij4">阿里云开发者认证活动地址</a>。我也去撸了一张200元的优惠券，买了一个阿里云香港的轻应用服务器，想着在上面安装一下宝塔面板，下面记录一下小白安装宝塔的过程。</p>
@@ -97,8 +97,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[《哪吒之魔童降世》并没有那么好]]></title>
-        <id>https://kveln.cn/post/Ne Zha</id>
-        <link href="https://kveln.cn/post/Ne Zha">
+        <id>http://localhost:4000/post/Ne Zha</id>
+        <link href="http://localhost:4000/post/Ne Zha">
         </link>
         <updated>2019-08-26T11:46:22.000Z</updated>
         <summary type="html"><![CDATA[<p>半年没看电影了，昨天终于去看了《哪吒之魔童降世》，这部动漫电影目前在总票房榜上排名第3，网上也是一片好评，但是看完，感觉还是和期望有一点差距。</p>
@@ -119,8 +119,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea主题zero]]></title>
-        <id>https://kveln.cn/post/gridea-theme-zero</id>
-        <link href="https://kveln.cn/post/gridea-theme-zero">
+        <id>http://localhost:4000/post/gridea-theme-zero</id>
+        <link href="http://localhost:4000/post/gridea-theme-zero">
         </link>
         <updated>2019-07-30T10:52:08.000Z</updated>
         <summary type="html"><![CDATA[<p>一款简洁专注于写作的Gridea博客主题,网站主题移植参考于<a href="https://blog.caicai.me/">菩提树下</a>,也是目前本博客使用的主题。</p>
@@ -139,8 +139,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[为你的Gridea博客加上Valine评论系统]]></title>
-        <id>https://kveln.cn/post/qE678A4ce</id>
-        <link href="https://kveln.cn/post/qE678A4ce">
+        <id>http://localhost:4000/post/qE678A4ce</id>
+        <link href="http://localhost:4000/post/qE678A4ce">
         </link>
         <updated>2019-07-15T07:27:53.000Z</updated>
         <summary type="html"><![CDATA[<p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
@@ -215,8 +215,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[损失厌恶和沉没成本]]></title>
-        <id>https://kveln.cn/post/WpCEDNLIl</id>
-        <link href="https://kveln.cn/post/WpCEDNLIl">
+        <id>http://localhost:4000/post/WpCEDNLIl</id>
+        <link href="http://localhost:4000/post/WpCEDNLIl">
         </link>
         <updated>2019-07-10T10:26:38.000Z</updated>
         <summary type="html"><![CDATA[<p>今天接触到了两个词，“损失厌恶”和“沉没成本”，感觉挺有意思的，整理了一下相关的概念和案例。</p>
@@ -266,8 +266,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[人生有三种困境]]></title>
-        <id>https://kveln.cn/post/Three Dilemmas of Life</id>
-        <link href="https://kveln.cn/post/Three Dilemmas of Life">
+        <id>http://localhost:4000/post/Three Dilemmas of Life</id>
+        <link href="http://localhost:4000/post/Three Dilemmas of Life">
         </link>
         <updated>2019-07-03T07:29:08.000Z</updated>
         <summary type="html"><![CDATA[<p>人生有三种困境，孤独、痛苦、恐惧  ----------  史铁生</p>
@@ -284,8 +284,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[多抓鱼百货购物开箱]]></title>
-        <id>https://kveln.cn/post/duozhuayu</id>
-        <link href="https://kveln.cn/post/duozhuayu">
+        <id>http://localhost:4000/post/duozhuayu</id>
+        <link href="http://localhost:4000/post/duozhuayu">
         </link>
         <updated>2019-07-01T14:17:35.000Z</updated>
         <summary type="html"><![CDATA[<p>6.28日晚上多抓鱼推送了一篇微信推文，说是搞了个多抓鱼百货。女朋友看了看上架的商品，发现有一个静音小电扇，对一个在夏天不喜欢开空调的人来说，小电扇是一个很不错的选择，就马上下单了。原价159，多抓鱼卖58，就是下面这个小电扇</p>
@@ -308,8 +308,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[有道云笔记的网页剪报插件失效]]></title>
-        <id>https://kveln.cn/post/youdaoyunnote</id>
-        <link href="https://kveln.cn/post/youdaoyunnote">
+        <id>http://localhost:4000/post/youdaoyunnote</id>
+        <link href="http://localhost:4000/post/youdaoyunnote">
         </link>
         <updated>2019-06-13T08:18:29.000Z</updated>
         <summary type="html"><![CDATA[<p>在谷歌浏览器上安装了有道云笔记的插件，很久没用后，今天点击插件想要收藏一篇文章，发现有道云笔记chrome的插件（网页剪报）失效不能用，点击没反应，后来上网搜索了一些方法，最终解决了，这里记录一下最后的解决方法。</p>
@@ -324,8 +324,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[使用Coding Page 和Gridea搭建免费个人博客]]></title>
-        <id>https://kveln.cn/post/11</id>
-        <link href="https://kveln.cn/post/11">
+        <id>http://localhost:4000/post/11</id>
+        <link href="http://localhost:4000/post/11">
         </link>
         <updated>2019-05-30T15:15:18.000Z</updated>
         <summary type="html"><![CDATA[<p>对于想要在网上有自己的一个博客网站的人来说，常用的有Wordpress、Typecho 这些免费搭建工具。但是对一些小白来说，需要接触到域名、空间购买、数据库设置这些，还是有些难度的。在前段时间，偶然在网上发现了这个Gridea工具。</p>
@@ -430,8 +430,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[产品经理如何拒绝不合理的需求]]></title>
-        <id>https://kveln.cn/post/How do product managers reject unreasonable demands</id>
-        <link href="https://kveln.cn/post/How do product managers reject unreasonable demands">
+        <id>http://localhost:4000/post/How do product managers reject unreasonable demands</id>
+        <link href="http://localhost:4000/post/How do product managers reject unreasonable demands">
         </link>
         <updated>2019-05-28T07:41:38.000Z</updated>
         <summary type="html"><![CDATA[<p>今天在知乎上看到有个问题:产品经理如何拒绝客户、领导不合理的需求？这个事情很常见，试着回答一下。</p>
@@ -485,8 +485,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[谷歌浏览器设置打开新标签页为自定义网站]]></title>
-        <id>https://kveln.cn/post/谷歌浏览器设置打开新标签页为自定义网站</id>
-        <link href="https://kveln.cn/post/谷歌浏览器设置打开新标签页为自定义网站">
+        <id>http://localhost:4000/post/谷歌浏览器设置打开新标签页为自定义网站</id>
+        <link href="http://localhost:4000/post/谷歌浏览器设置打开新标签页为自定义网站">
         </link>
         <updated>2019-05-27T10:31:04.000Z</updated>
         <summary type="html"><![CDATA[<p>使用360极速浏览器等国内浏览器时，可以在新标签页设置自己自定义的网站，但是使用谷歌浏览器时，却不能使用，我在在网上找到了一个可以设置新标签页的插件，名叫New Tab Redirect。</p>
@@ -514,8 +514,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[怎么用小程序赚钱]]></title>
-        <id>https://kveln.cn/post/How Small Procedures Make Profits</id>
-        <link href="https://kveln.cn/post/How Small Procedures Make Profits">
+        <id>http://localhost:4000/post/How Small Procedures Make Profits</id>
+        <link href="http://localhost:4000/post/How Small Procedures Make Profits">
         </link>
         <updated>2019-04-30T04:38:56.000Z</updated>
         <content type="html"><![CDATA[<h2 id="江颖同程艺龙">江颖（同程艺龙）</h2>
@@ -874,8 +874,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[产品经理需要知道的数据指标(整理)]]></title>
-        <id>https://kveln.cn/post/19</id>
-        <link href="https://kveln.cn/post/19">
+        <id>http://localhost:4000/post/19</id>
+        <link href="http://localhost:4000/post/19">
         </link>
         <updated>2019-03-03T14:04:44.000Z</updated>
         <summary type="html"><![CDATA[<p>整理了一下产品经理在工作中需要知道的常用的数据指标。</p>
@@ -979,8 +979,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[静态布局、自适应布局、流式布局、响应式布局、弹性布局等的概念和区别(转)]]></title>
-        <id>https://kveln.cn/post/buju</id>
-        <link href="https://kveln.cn/post/buju">
+        <id>http://localhost:4000/post/buju</id>
+        <link href="http://localhost:4000/post/buju">
         </link>
         <updated>2018-04-12T09:11:49.000Z</updated>
         <summary type="html"><![CDATA[<p>静态布局、自适应布局、流式布局、响应式布局、弹性布局等的概念和区别，转自&quot;<a href="https://www.cnblogs.com/yanayana/p/7066948.html">笨鸟儿博客</a></p>
@@ -1131,8 +1131,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[我在故宫修文物观后感]]></title>
-        <id>https://kveln.cn/post/My-Feelings-on-the-Masters-in-Forbidden-City</id>
-        <link href="https://kveln.cn/post/My-Feelings-on-the-Masters-in-Forbidden-City">
+        <id>http://localhost:4000/post/My-Feelings-on-the-Masters-in-Forbidden-City</id>
+        <link href="http://localhost:4000/post/My-Feelings-on-the-Masters-in-Forbidden-City">
         </link>
         <updated>2017-11-30T07:43:23.000Z</updated>
         <summary type="html"><![CDATA[<p>昨天晚上一口气看完了《我在故宫修文物》这部纪录片，其中有一个片段给我的印象很深。</p>
@@ -1156,8 +1156,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[语音人机交互]]></title>
-        <id>https://kveln.cn/post/10</id>
-        <link href="https://kveln.cn/post/10">
+        <id>http://localhost:4000/post/10</id>
+        <link href="http://localhost:4000/post/10">
         </link>
         <updated>2017-07-31T07:41:41.000Z</updated>
         <summary type="html"><![CDATA[<p>这篇文章是前些天参加科大讯飞的知乎live“人机交互：如何更愉快地和 AI 唠嗑“的主讲人的讲课实录，在这里贴处来，作为一个记录吧。声明这篇文章仅作为个人学习所用，如有侵权请联系我删除。</p>
@@ -1220,8 +1220,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[大产品小设计]]></title>
-        <id>https://kveln.cn/post/Design Collection</id>
-        <link href="https://kveln.cn/post/Design Collection">
+        <id>http://localhost:4000/post/Design Collection</id>
+        <link href="http://localhost:4000/post/Design Collection">
         </link>
         <updated>2017-07-30T07:36:30.000Z</updated>
         <summary type="html"><![CDATA[<p>这个是我最近想做的一个关于产品设计细节的一个专题，收集日常碰到的有趣的、有意思的设计，作为一个归档。</p>
@@ -1245,8 +1245,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[常用的产品设计理论和模型]]></title>
-        <id>https://kveln.cn/post/1</id>
-        <link href="https://kveln.cn/post/1">
+        <id>http://localhost:4000/post/1</id>
+        <link href="http://localhost:4000/post/1">
         </link>
         <updated>2017-05-17T12:14:26.000Z</updated>
         <summary type="html"><![CDATA[<p>整理了一下常用的产品设计理论和模型，内容来自于网络整理，持续更新。</p>
@@ -1345,8 +1345,8 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://kveln.cn/post/about</id>
-        <link href="https://kveln.cn/post/about">
+        <id>http://localhost:4000/post/about</id>
+        <link href="http://localhost:4000/post/about">
         </link>
         <updated>2017-01-01T11:09:48.000Z</updated>
         <content type="html"><![CDATA[<p>这是关于的页面，可以在这里向世界介绍你！</p>
