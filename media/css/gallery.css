@@ -612,8 +612,8 @@ body {
 font-family: 'Barlow', sans-serif;
 font-size: 1.125rem;
 line-height: 1.5;
-color: #787878;
-background: #fff;
+color: #ffffff;
+background: #333333;
 text-rendering: optimizeLegibility;
 }
 
@@ -622,17 +622,17 @@ margin: 0 1.5rem 0 0;
 }
 
 a {
-color: #787878;
+color: #ffffff;
 text-decoration: none;
 -webkit-transition: all 0.2s ease;
 -o-transition: all 0.2s ease;
 transition: all 0.2s ease;
 }
 a:hover {
-color: #2e2e2e;
+color: #ffffff;
 }
 a.active {
-color: #2e2e2e;
+color: #ffffff;
 }
 
 nav {
@@ -654,7 +654,7 @@ margin: 0;
 }
 
 #highlight {
-color: #333;
+color: #ffffff;
 font-size: 1.25rem;
 }
 
@@ -727,7 +727,7 @@ display: inline-block;
 
 footer {
 padding: 1rem 0;
-background: #f7f7f7;
+background: #333333;
 text-align: center;
 }
 
