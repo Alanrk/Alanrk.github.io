@@ -206,9 +206,9 @@
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8902194"><label class="task-list-item-label" for="task-item-8902194"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6210703"><label class="task-list-item-label" for="task-item-6210703"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1770171"><label class="task-list-item-label" for="task-item-1770171"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1859145"><label class="task-list-item-label" for="task-item-1859145"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-189910"><label class="task-list-item-label" for="task-item-189910"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2051532"><label class="task-list-item-label" for="task-item-2051532"> 第三</label></li>
 </ul>
 
 
@@ -219,6 +219,23 @@
   </article>
 
    
+        <!--载入js，在</body>之前插入即可-->
+                              <!--Leancloud操作库:-->
+                              <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+                              <!--Valine的核心代码库-->
+                              <script src="/media/scripts/Valine.min.js"></script>
+                              <div class="comment"></div>
+                              <script>new Valine({
+                                  av: AV,
+                                  el: '.comment',
+                                  lang: 'zh-cn',
+                                  admin_email: 'moorel@qq.com',
+                                  emoticon_url: 'https://cloud.panjunwen.com/alu',
+                                  emoticon_list: ["狂汗.png", "不说话.png", "汗.png", "坐等.png", "献花.png", "不高兴.png", "中刀.png", "害羞.png", "皱眉.png", "小眼睛.png", "暗地观察.png"],
+                                  app_id: 'G5Iux4N6zmtNIABC1z81F5So-MdYXbMMI',
+                                  app_key: 'nrGvHcHguBfswdoUgSoXi3Em',
+                                  placeholder: '评论留言'
+                                });</script>
 
  <!-- Footer -->
   <footer>
