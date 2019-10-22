@@ -609,11 +609,11 @@ box-sizing: border-box;
 }
 
 body {
-font-family: 'Barlow', sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
 font-size: 1.125rem;
 line-height: 1.5;
 color: #ffffff;
-background: #333333;
+background: #ffffff;
 text-rendering: optimizeLegibility;
 }
 
@@ -727,7 +727,7 @@ display: inline-block;
 
 footer {
 padding: 1rem 0;
-background: #333333;
+background: #ffffff;
 text-align: center;
 }
 
