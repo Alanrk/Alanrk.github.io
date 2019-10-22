@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>Kveln&apos;Blog</title>
-    <updated>2019-10-22T14:21:48.808Z</updated>
+    <updated>2019-10-22T15:10:15.136Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -114,9 +114,9 @@
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8180940"><label class="task-list-item-label" for="task-item-8180940"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1832415"><label class="task-list-item-label" for="task-item-1832415"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2512206"><label class="task-list-item-label" for="task-item-2512206"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4088792"><label class="task-list-item-label" for="task-item-4088792"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3723463"><label class="task-list-item-label" for="task-item-3723463"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4381507"><label class="task-list-item-label" for="task-item-4381507"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
@@ -358,7 +358,7 @@
 <h2 id="使用valine-admin管理评论">使用Valine Admin管理评论</h2>
 <p>Valine Admin主要实现评论邮件通知、评论管理、垃圾评论过滤等功能。支持完全自定义的邮件通知模板。</p>
 <p>安装教程：<a href="https://github.com/DesertsP/Valine-Admin">Valine Admin安装教程</a></p>
-<h2 id="enjoy-it">Enjoy it😊!</h2>
+<p>Enjoy it😊!</p>
 ]]></content>
     </entry>
     <entry>
@@ -481,22 +481,22 @@
         <content type="html"><![CDATA[<p>记录一下2019年要看的书，基本都是乘着京东或者当当打折的时候买的，也有部分在微信读书上看的</p>
 <!-- more -->
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9197924"><label class="task-list-item-label" for="task-item-9197924"> 《流量池》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3082580"><label class="task-list-item-label" for="task-item-3082580"> 《上瘾：让用户养成使用习惯的四大产品逻辑》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2898745"><label class="task-list-item-label" for="task-item-2898745"> 《游戏改变世界》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6079192"><label class="task-list-item-label" for="task-item-6079192"> 《成瘾：如何设计让人上瘾的产品、品牌和观念》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9302864"><label class="task-list-item-label" for="task-item-9302864"> 《参与感：小米口碑营销内部手册》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-756738"><label class="task-list-item-label" for="task-item-756738"> 《人工智能产品经理：AI时代的PM修炼手册》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7025040"><label class="task-list-item-label" for="task-item-7025040"> 《新零售：低价高效的数据赋能之路》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8822840"><label class="task-list-item-label" for="task-item-8822840"> 《我不是产品经理：移动互联网商业模式下的用户增长》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4280675"><label class="task-list-item-label" for="task-item-4280675"> 《幕后产品：打造突破式产品思维》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1086079"><label class="task-list-item-label" for="task-item-1086079"> 《运营之光：我的互联网运营方法论与自白》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2194469"><label class="task-list-item-label" for="task-item-2194469"> 《破茧成蝶2：以产品为中心的设计革命》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6964498"><label class="task-list-item-label" for="task-item-6964498"> 《薛兆丰经济学讲义》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4985725"><label class="task-list-item-label" for="task-item-4985725"> 《创投42章经》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3065362"><label class="task-list-item-label" for="task-item-3065362"> 《刷新：重新发现商业与未来》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7996447"><label class="task-list-item-label" for="task-item-7996447"> 《大败局》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1668687"><label class="task-list-item-label" for="task-item-1668687"> 《激荡四十年：中国企业1978-2018》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9697812"><label class="task-list-item-label" for="task-item-9697812"> 《流量池》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-946217"><label class="task-list-item-label" for="task-item-946217"> 《上瘾：让用户养成使用习惯的四大产品逻辑》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7591426"><label class="task-list-item-label" for="task-item-7591426"> 《游戏改变世界》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7208040"><label class="task-list-item-label" for="task-item-7208040"> 《成瘾：如何设计让人上瘾的产品、品牌和观念》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7552891"><label class="task-list-item-label" for="task-item-7552891"> 《参与感：小米口碑营销内部手册》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5148929"><label class="task-list-item-label" for="task-item-5148929"> 《人工智能产品经理：AI时代的PM修炼手册》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7354515"><label class="task-list-item-label" for="task-item-7354515"> 《新零售：低价高效的数据赋能之路》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4857381"><label class="task-list-item-label" for="task-item-4857381"> 《我不是产品经理：移动互联网商业模式下的用户增长》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4297142"><label class="task-list-item-label" for="task-item-4297142"> 《幕后产品：打造突破式产品思维》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3808810"><label class="task-list-item-label" for="task-item-3808810"> 《运营之光：我的互联网运营方法论与自白》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7834673"><label class="task-list-item-label" for="task-item-7834673"> 《破茧成蝶2：以产品为中心的设计革命》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1027215"><label class="task-list-item-label" for="task-item-1027215"> 《薛兆丰经济学讲义》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2267235"><label class="task-list-item-label" for="task-item-2267235"> 《创投42章经》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5343906"><label class="task-list-item-label" for="task-item-5343906"> 《刷新：重新发现商业与未来》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4149677"><label class="task-list-item-label" for="task-item-4149677"> 《大败局》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-791457"><label class="task-list-item-label" for="task-item-791457"> 《激荡四十年：中国企业1978-2018》</label></li>
 </ul>
 ]]></content>
     </entry>
