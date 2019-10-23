@@ -10,7 +10,7 @@ body {
 }
 p {
   line-height: 1.75;
-  margin: 30px 0;
+  margin: 0px 0 30px;
 }
 p a {
   text-decoration: underline;
@@ -151,7 +151,7 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
@@ -333,7 +333,7 @@ footer .list-inline {
 }
 footer .copyright {
   font-size: 14px;
-  margin-bottom: 0;
+  margin-top: 30px;
   text-align: center;
 }
 .btn {
@@ -368,6 +368,7 @@ img {
 h2.post-title.Archives {
   font-size: 20px;
   color: #4a4a4a;
+  margin-bottom: 0;
 }
 .time {
   color: #868e96;
@@ -536,7 +537,7 @@ ul.markdownIt-TOC {
   background-color: #fdfdfd;
   line-height: 1.75;
 }
-h3 p {
+.post-subtitle p {
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 0px;
@@ -648,4 +649,36 @@ a.Themeinfo {
 }
 .comment.valine {
   margin-top: 60px;
+}
+p.next-post {
+  border-left: 4px solid #555555;
+  padding-left: 20px;
+  margin-top: 60px;
+}
+.post-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+h3.post-subtitle {
+  margin-bottom: 0;
+}
+.tag-list .tag {
+  display: inline-block;
+  border: 2px solid rgba(136, 136, 136, 0.8);
+  border-radius: 999em;
+  padding: 0 10px;
+  color: #555;
+  line-height: 24px;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0 1px;
+  margin-right: 6px;
+}
+.post-preview.tag-list {
+  display: inline-block;
+  margin-top: 20px;
 }

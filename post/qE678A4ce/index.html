@@ -2,11 +2,14 @@
 <html>
   <head>
     
-  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
   <meta name="referrer" content="never">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="keywords" content="kveln,Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等">
+  <meta name="description" content="kveln,Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等">
+  <meta name="author" content="kveln">
   <title>为你的Gridea博客加上Valine评论系统 | Kveln&#39;Blog</title>
   <link href="https://kveln.cn/media/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://kveln.cn/media/css/all.min.css" rel="stylesheet" type="text/css">
@@ -56,25 +59,25 @@
           
           <li class="nav-item">
               
-              <a class="nav-link" href="https://kveln.cn/movie.html">观影</a>
+              <a class="nav-link" href="https://kveln.cn/movie.html" target="_blank">观影</a>
               
           </li>
           
           <li class="nav-item">
               
-              <a class="nav-link" href="https://kveln.cn/gallery.html">摄影</a>
+              <a class="nav-link" href="https://kveln.cn/gallery.html" target="_blank">摄影</a>
               
           </li>
           
           <li class="nav-item">
               
-              <a class="nav-link" href="http://www.pmdaily.cc/">导航</a>
+              <a class="nav-link" href="http://www.pmdaily.cc/" target="_blank">导航</a>
               
           </li>
           
           <li class="nav-item">
               
-              <a class="nav-link" href="https://kveln.cn/atom.xml">订阅</a>
+              <a class="nav-link" href="https://kveln.cn/atom.xml" target="_blank">订阅</a>
               
           </li>
           
@@ -115,6 +118,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-content">
           <p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
 <!-- more -->
 <h2 id="valine介绍">Valine介绍</h2>
@@ -185,9 +189,10 @@
           <p class="next-post">下一篇：
             <a href="https://kveln.cn/post/WpCEDNLIl">
               <span class="post-title">
-                损失厌恶和沉没成本
+                损失厌恶和沉没成本 
               </span>
             </a>
+            <span>&rarr;</span>
           </p>
         
         <div class="comment">
@@ -210,6 +215,7 @@
                                   placeholder: '评论留言'
                                 });</script>
         </div>
+      </span>
         </div>
       </div>
     </div>
@@ -254,7 +260,7 @@
             
               
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Kveln'Blog 2019<span class="sep"></span><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+          <p class="copyright text-muted">Copyright &copy; Kveln'Blog 2019<br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
         </div>
       </div>
     </div>
