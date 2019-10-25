@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <head lang="en"> 
+  <meta charset="UTF-8" /> 
   <meta name="referrer" content="never">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>Gallery|Kveln'Blog</title>
-  <link href="media/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/media/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <title>Gallery|Kveln.Blog</title> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" /> 
-  <link href="/styles/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" /> 
   <link rel="stylesheet" href="media/css/gallery.css" type='text/css' media='all'>
   <script>
 window.console = window.console || function(t) {};
@@ -22,59 +15,28 @@ if (document.location.search.match(/type=embed/gi)) {
 window.parent.postMessage("resize", "*");
 }
 </script> 
-  </head>
-  <body>
-  	<!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="https://kveln.cn/">Kveln'Blog</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="https://kveln.cn//post/about/">关于</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="https://kveln.cn//archives">归档</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="https://kveln.cn//movie.html">观影</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="https://kveln.cn//gallery.html">摄影</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="http://www.pmdaily.cc/">导航</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="https://kveln.cn//atom.xml">订阅</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('/media/images/home-bg.jpg')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-heading">
-            <h1 class="tag-tl">Gallery</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+ </head> 
+ <body translate="no"> 
+  <nav> 
+   <div class="container"> 
+    <div class="grid"> 
+     <div class="column-xs-12 column-md-10"> 
+      <p id="highlight">Gallery</p> 
+     </div> 
+     <div class="column-xs-12 column-md-2"> 
+      <ul> 
+       <li><a href="https://kveln.cn/" class="active">Blog</a></li> 
+       <li><a href="https://kveln.cn/post/about/">About</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </nav> 
 
-  <!-- Post Content -->
-  <article>
-    <div class="container">
-         <section class="gallery"> 
+
+
+  <section class="gallery"> 
    <div class="container"> 
     <div class="grid">
     <div class="column-xs-12 column-md-4"> 
@@ -147,9 +109,28 @@ window.parent.postMessage("resize", "*");
        <span class="img-content-hover"> <h2 class="title">吊</h2> <h3 class="category">2019.6.20</h3> </span> 
       </figure> 
      </div> 
+
+
     </div> 
    </div> 
   </section> 
+
+
+
+  <footer> 
+   <div class="container"> 
+    <div class="grid"> 
+     <div class="column-xs-12"> 
+      <ul class="social"> 
+       <li><a href="https://twitter.com/kato_katherine" target="_blank" rel="noopener noreferrer"><span class="fab fa-twitter"></span></a></li> 
+       <li><a href="https://www.instagram.com/hi_moorel/" target="_blank" rel="noopener noreferrer"><span class="fab fa-instagram"></span></a></li> 
+       <li><a href="https://weibo.com/3132776563/profile" target="_blank" rel="noopener noreferrer"><span class="fab fa-weibo"></span></a></li>
+      </ul> 
+      <a href="https://kveln.cn/">kveln.cn</a>
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
   <script src="media/scripts/gallery.js"></script> 
   <script id="rendered-js">
 const imgContent = document.querySelectorAll('.img-content-hover');
@@ -164,6 +145,8 @@ imgContent[i].style.top = e.pageY + 'px';
 document.addEventListener('mousemove', showImgContent);
 //# sourceURL=pen.js
 </script>  
+
+
   <script>
         var num = document.getElementsByTagName('img').length;
         var img = document.getElementsByTagName("img");
@@ -188,72 +171,5 @@ document.addEventListener('mousemove', showImgContent);
             }
         }
     </script>
-
-        
-    </div>
-  </article>
-    <!-- Bootstrap core JavaScript -->
-  <script src="/media/scripts/jquery.min.js"></script>
-  <script src="/media/scripts/bootstrap.bundle.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script src="/media/scripts/clean-blog.min.js"></script>
-  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
-<a id="back_to_top" href="#" class="back_to_top">
-  <span>▲</span></a>
-<script>$(document).ready((function(_this) {
-    return function() {
-      var bt;
-      bt = $('#back_to_top');
-      if ($(document).width() > 480) {
-        $(window).scroll(function() {
-          var st;
-          st = $(window).scrollTop();
-          if (st > 30) {
-            return bt.css('display', 'block')
-          } else {
-            return bt.css('display', 'none')
-          }
-        });
-        return bt.click(function() {
-          $('body,html').animate({
-            scrollTop: 0
-          },
-          800);
-          return false
-        })
-      }
-    }
-  })(this));</script>
-
- <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            
-            <li class="list-inline-item">
-             <a href="https://twitter.com/HiKveln" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/hi_moorel/" target="_blank">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; Kveln'Blog 2019<span class="sep"></span><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
-        </div>
-      </div>
-    </div>
-   </footer>
-
-
-  </body>
+ </body>
 </html>
