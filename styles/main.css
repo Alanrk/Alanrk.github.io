@@ -170,7 +170,7 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 200px 0 150px;
+  padding: 140px 0 80px;
   color: #fff;
 }
 @media only screen and (min-width: 768px) {
@@ -384,7 +384,6 @@ h1.tag-tl {
   text-align: center;
 }
 code.hljs {
-  margin-top: 1.2em;
   padding: 15px 20px;
   line-height: 1.75;
   font-size: 14px;

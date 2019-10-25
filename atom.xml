@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>Kveln&apos;Blog</title>
-    <updated>2019-10-25T03:29:10.667Z</updated>
+    <updated>2019-10-25T11:55:13.004Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -10,6 +10,59 @@
     <logo>https://kveln.cn/images/avatar.png</logo>
     <icon>https://kveln.cn/favicon.ico</icon>
     <rights>All rights reserved 2019, Kveln&apos;Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[删除Mac下Git上传项目代码时产生的.DS_Store文件]]></title>
+        <id>https://kveln.cn/post/103</id>
+        <link href="https://kveln.cn/post/103">
+        </link>
+        <updated>2019-10-25T12:38:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>最近在 Mac 中使用 Git 上传项目时，发现 GitHub 仓库的每个文件夹下都生成了一个 .DS_Store 的文件，好奇查了一下这个文件格式，在网上搜索了一下解决办法，这里记录一下怎么删除 .DS_Store 文件以及如何在后续使用 Git时忽略掉 .DS_Store 文件。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>最近在 Mac 中使用 Git 上传项目时，发现 GitHub 仓库的每个文件夹下都生成了一个 .DS_Store 的文件，好奇查了一下这个文件格式，在网上搜索了一下解决办法，这里记录一下怎么删除 .DS_Store 文件以及如何在后续使用 Git时忽略掉 .DS_Store 文件。</p>
+<!-- more -->
+<h3 id="ds_store">.DS_Store</h3>
+<p>.DS_Store 是 Mac OS 保存文件夹的自定义属性的隐藏文件，如文件的图标位置或背景色，删除后会自动生成，包含了一些文件的个人信息，如果不处理的话，可能会有一些你不一定希望别人看到的信息。</p>
+<h3 id="解决办法1创建一个-gitignore-文件来忽略-ds_store">解决办法1:创建一个 .gitignore 文件来忽略 .DS_Store</h3>
+<p>首先需要删除项目文件夹下已经生成的 .DS_Store 文件。</p>
+<p>终端切换到项目文件夹，输入 <code>git status</code> 来查看是否有 .DS_Store 文件，如果有相关文件，终端输入下面的命令将它删除。</p>
+<pre><code>find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+</code></pre>
+<p>创建一个名为.gitignore的文件</p>
+<pre><code>touch .gitignore
+</code></pre>
+<p>打开创建好的 .gitignore文件</p>
+<pre><code>open .gitignore
+</code></pre>
+<p><strong>输入 .DS_Store ，然后换行继续输入 /.DS_Store ，command +s保存</strong></p>
+<p>更新项目</p>
+<pre><code>git add --all
+</code></pre>
+<p>提交到远程仓库</p>
+<pre><code>git commit -m '.DS_Store ignore'
+git push
+</code></pre>
+<p>上面的办法只能对这个项目文件夹起作用，其它的 Git 项目文件夹要想忽略，还要重新搞一遍，所以可以做一盒全局忽略。</p>
+<h3 id="解决办法2创建全局-gitignore-文件来忽略-ds_store">解决办法2:创建全局 .gitignore 文件来忽略 .DS_Store</h3>
+<p>创建 .gitignore_global 文件</p>
+<pre><code>touch .gitignore_global 
+</code></pre>
+<p>打开创建好的 .gitignore_global 文件</p>
+<pre><code>Open .gitignore_global
+</code></pre>
+<p><strong>输入 .DS_Store ，然后换行继续输入 /.DS_Store ，command +s保存</strong></p>
+<p>打开 .gitconfig</p>
+<pre><code>open .gitconfig
+</code></pre>
+<p>在 ~/.gitconfig 中引入 .gitignore_global</p>
+<pre><code>[core]
+​    excludesfile = /Users/w/.gitignore_global
+</code></pre>
+<p>然后更新提交项目即可</p>
+<blockquote>
+<p>注意：user/后面填写你的电脑的用户名</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 主题 “clean”]]></title>
         <id>https://kveln.cn/post/102</id>
@@ -145,9 +198,9 @@
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3873604"><label class="task-list-item-label" for="task-item-3873604"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2198122"><label class="task-list-item-label" for="task-item-2198122"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3751943"><label class="task-list-item-label" for="task-item-3751943"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5402489"><label class="task-list-item-label" for="task-item-5402489"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1862572"><label class="task-list-item-label" for="task-item-1862572"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8794648"><label class="task-list-item-label" for="task-item-8794648"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
@@ -515,22 +568,22 @@
         <content type="html"><![CDATA[<p>记录一下2019年要看的书，基本都是乘着京东或者当当打折的时候买的，也有部分在微信读书上看的</p>
 <!-- more -->
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-658030"><label class="task-list-item-label" for="task-item-658030"> 《流量池》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5721224"><label class="task-list-item-label" for="task-item-5721224"> 《上瘾：让用户养成使用习惯的四大产品逻辑》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5088391"><label class="task-list-item-label" for="task-item-5088391"> 《游戏改变世界》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8318258"><label class="task-list-item-label" for="task-item-8318258"> 《成瘾：如何设计让人上瘾的产品、品牌和观念》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9675386"><label class="task-list-item-label" for="task-item-9675386"> 《参与感：小米口碑营销内部手册》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8528473"><label class="task-list-item-label" for="task-item-8528473"> 《人工智能产品经理：AI时代的PM修炼手册》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4016121"><label class="task-list-item-label" for="task-item-4016121"> 《新零售：低价高效的数据赋能之路》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8134671"><label class="task-list-item-label" for="task-item-8134671"> 《我不是产品经理：移动互联网商业模式下的用户增长》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-483210"><label class="task-list-item-label" for="task-item-483210"> 《幕后产品：打造突破式产品思维》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1555283"><label class="task-list-item-label" for="task-item-1555283"> 《运营之光：我的互联网运营方法论与自白》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1384284"><label class="task-list-item-label" for="task-item-1384284"> 《破茧成蝶2：以产品为中心的设计革命》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-719266"><label class="task-list-item-label" for="task-item-719266"> 《薛兆丰经济学讲义》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2420171"><label class="task-list-item-label" for="task-item-2420171"> 《创投42章经》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7476449"><label class="task-list-item-label" for="task-item-7476449"> 《刷新：重新发现商业与未来》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2996192"><label class="task-list-item-label" for="task-item-2996192"> 《大败局》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1980480"><label class="task-list-item-label" for="task-item-1980480"> 《激荡四十年：中国企业1978-2018》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1935073"><label class="task-list-item-label" for="task-item-1935073"> 《流量池》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8875986"><label class="task-list-item-label" for="task-item-8875986"> 《上瘾：让用户养成使用习惯的四大产品逻辑》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4190088"><label class="task-list-item-label" for="task-item-4190088"> 《游戏改变世界》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2852937"><label class="task-list-item-label" for="task-item-2852937"> 《成瘾：如何设计让人上瘾的产品、品牌和观念》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6174188"><label class="task-list-item-label" for="task-item-6174188"> 《参与感：小米口碑营销内部手册》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1884704"><label class="task-list-item-label" for="task-item-1884704"> 《人工智能产品经理：AI时代的PM修炼手册》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3349267"><label class="task-list-item-label" for="task-item-3349267"> 《新零售：低价高效的数据赋能之路》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-325438"><label class="task-list-item-label" for="task-item-325438"> 《我不是产品经理：移动互联网商业模式下的用户增长》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7961514"><label class="task-list-item-label" for="task-item-7961514"> 《幕后产品：打造突破式产品思维》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8388918"><label class="task-list-item-label" for="task-item-8388918"> 《运营之光：我的互联网运营方法论与自白》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5891568"><label class="task-list-item-label" for="task-item-5891568"> 《破茧成蝶2：以产品为中心的设计革命》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9631802"><label class="task-list-item-label" for="task-item-9631802"> 《薛兆丰经济学讲义》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6640971"><label class="task-list-item-label" for="task-item-6640971"> 《创投42章经》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7209989"><label class="task-list-item-label" for="task-item-7209989"> 《刷新：重新发现商业与未来》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3929962"><label class="task-list-item-label" for="task-item-3929962"> 《大败局》</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-491988"><label class="task-list-item-label" for="task-item-491988"> 《激荡四十年：中国企业1978-2018》</label></li>
 </ul>
 ]]></content>
     </entry>
