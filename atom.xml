@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>Kveln&apos;Blog</title>
-    <updated>2019-10-25T13:40:34.230Z</updated>
+    <updated>2019-10-27T10:05:06.923Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -198,28 +198,10 @@ git push
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4670811"><label class="task-list-item-label" for="task-item-4670811"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4380862"><label class="task-list-item-label" for="task-item-4380862"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8413811"><label class="task-list-item-label" for="task-item-8413811"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5759749"><label class="task-list-item-label" for="task-item-5759749"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1333483"><label class="task-list-item-label" for="task-item-1333483"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8055291"><label class="task-list-item-label" for="task-item-8055291"> 第三</label></li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS Airdrop 至 macOS，图片是 HEIC 格式怎么办]]></title>
-        <id>https://kveln.cn/post/100 (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.08)</id>
-        <link href="https://kveln.cn/post/100 (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.08)">
-        </link>
-        <updated>2019-10-13T14:47:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现 Airdrop 到 macOS 的图片都是 HEIC。HEIC 是 iOS 11更新后，iPhone 7 及其后的手机硬件在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现 Airdrop 到 macOS 的图片都是 HEIC。HEIC 是 iOS 11更新后，iPhone 7 及其后的手机硬件在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
-<!-- more -->
-<h3 id="1-以前已经拍摄的照片需要手动转换格式">1、以前已经拍摄的照片需要手动转换格式。</h3>
-<p>可以使用<a href="https://www.apowersoft.cn/heic-to-jpg">在线的图片格式转换</a>，或者将图片原图通过发送给微信的文件传输助手，然后再保存原图，就能把图片转成 jpg 格式。</p>
-<h3 id="2-想要以后拍的照片都默认为-jpg-格式">2、想要以后拍的照片都默认为 jpg 格式</h3>
-<p>设置 &gt; 相机 &gt; 格式 &gt; 兼容性最好，这样以后拍摄的照片都是 jpg 格式的。</p>
-<img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1570977576469-assets/web-upload/7b979399-1027-4449-b9e2-107d260ba767.png" style="zoom:50%;" />
-<img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570977583837-assets/web-upload/12a67a85-3857-461d-8b70-3f760b3db83e.jpeg" style="zoom:50%;" />
 ]]></content>
     </entry>
     <entry>
@@ -239,26 +221,6 @@ git push
 <p>设置 &gt; 相机 &gt; 格式 &gt; 兼容性最好，这样以后拍摄的照片都是 jpg 格式的。</p>
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1570977576469-assets/web-upload/7b979399-1027-4449-b9e2-107d260ba767.png" style="zoom:50%;" />
 <img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570977583837-assets/web-upload/12a67a85-3857-461d-8b70-3f760b3db83e.jpeg" style="zoom:50%;" />
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年轻人的第一台MacBookPro]]></title>
-        <id>https://kveln.cn/post/99 (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.12)</id>
-        <link href="https://kveln.cn/post/99 (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.12)">
-        </link>
-        <updated>2019-10-10T14:57:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>大学时候买的一台笔记本电脑，一直用到了今年，用了大概 6、7 年了，屏幕和电源都不太好了，女朋友推荐我换 MacBookpro，十一前在拼多多百亿补贴上车，已经用了一段时间了，不得不说一句，拼多多真香！</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>大学时候买的一台笔记本电脑，一直用到了今年，用了大概 6、7 年了，屏幕和电源都不太好了，女朋友推荐我换 MacBookpro，十一前在拼多多百亿补贴上车，已经用了一段时间了，不得不说一句，拼多多真香！</p>
-<!-- more -->
-<p>下面是开箱图，五码合一，序列号什么的都查了，没问题。</p>
-<figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978461114-assets/web-upload/80f35173-16e3-4ccd-8e00-26ab0924544b.jpeg" alt=""></figure>
-<figure data-type="image" tabindex="2"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978466977-assets/web-upload/031f2c68-abf3-4741-ae9b-b6b1d6d35a18.jpeg" alt=""></figure>
-<figure data-type="image" tabindex="3"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978472491-assets/web-upload/5e21e44e-6b94-4f8f-ae67-df52e96400f5.jpeg" alt=""></figure>
-<figure data-type="image" tabindex="4"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978478297-assets/web-upload/5d2a85b6-3bbe-410d-b9f7-61eb3bb49f8a.jpeg" alt=""></figure>
-<figure data-type="image" tabindex="5"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978487854-assets/web-upload/295ea395-d884-4998-8bba-178a54ae3fd1.jpeg" alt=""></figure>
-<figure data-type="image" tabindex="6"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978493854-assets/web-upload/7df7c1dc-f399-42a5-a0b0-55eacdb1a74c.jpeg" alt=""></figure>
-<p>前些天更新了Catalina，目前没什么大的问题，除了有些软件不兼容。</p>
 ]]></content>
     </entry>
     <entry>
@@ -389,30 +351,6 @@ git push
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Gridea 主题 “zero”]]></title>
-        <id>https://kveln.cn/post/gridea-theme-zero (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.15)</id>
-        <link href="https://kveln.cn/post/gridea-theme-zero (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.15)">
-        </link>
-        <updated>2019-07-30T10:52:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>一款简洁专注于写作的Gridea博客主题,网站主题移植参考于<a href="https://blog.caicai.me/">菩提树下</a>,</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>一款简洁专注于写作的Gridea博客主题,网站主题移植参考于<a href="https://blog.caicai.me/">菩提树下</a>,</p>
-<!-- more -->
-<h2 id="主题截图">主题截图</h2>
-<figure data-type="image" tabindex="1"><img src="https://camo.githubusercontent.com/e3efb273f39dad3d17937149d4647a59e240e8ec/68747470733a2f2f63646e2e6e6c61726b2e636f6d2f79757175652f302f323031392f706e672f3330323935332f313536343437343132353632362d6173736574732f7765622d75706c6f61642f37396230393961622d363431332d346435342d623932312d3161343038313339326364312e706e67" alt=""></figure>
-<p><img src="https://camo.githubusercontent.com/a53b0fb7f5a2e01fb8645cf0f0eb5500aacf6d07/68747470733a2f2f63646e2e6e6c61726b2e636f6d2f79757175652f302f323031392f706e672f3330323935332f313536343437343336353938312d6173736574732f7765622d75706c6f61642f32643463656239652d656534352d343663392d396261362d3134616231326234383732362e706e67" alt=""><br>
-<br></p>
-<h2 id="安装方法">安装方法</h2>
-<ul>
-<li>克隆项目到本地</br>GitHub地址：<a href="https://github.com/Alanrk/gridea-theme-zero" target="_blank">点击下载</a>,</br>百度网盘下载链接：<a href="https://pan.baidu.com/s/1TuXPy9LiplTeYtpUDEQW_Q" target="_blank">点击下载</a> 提取码：yi2n</li>
-<li>复制「 zero 」目录到「 Gridea 」主题文件中</li>
-<li>重启「 Gridea 」客户端</li>
-<li>在主题中选择「 zero 」主题，点击保存</li>
-<li>预览查看效果</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Gridea主题zero]]></title>
         <id>https://kveln.cn/post/gridea-theme-zero</id>
         <link href="https://kveln.cn/post/gridea-theme-zero">
@@ -430,81 +368,6 @@ git push
 <li>在主题中选择「 zero 」主题，点击保存</li>
 <li>预览查看效果</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为你的Gridea博客加上Valine评论系统]]></title>
-        <id>https://kveln.cn/post/qE678A4ce (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.18)</id>
-        <link href="https://kveln.cn/post/qE678A4ce (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.18)">
-        </link>
-        <updated>2019-07-15T07:27:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
-<!-- more -->
-<h2 id="valine介绍">Valine介绍</h2>
-<p>Valine - 一款快速、简洁且高效的无后端评论系统。</p>
-<p>官网地址：https://valine.js.org/</p>
-<h2 id="leancloud注册及配置">leancloud注册及配置</h2>
-<p>leancloud注册及配置见<a href="https://valine.js.org/quickstart.html">快速开始文档</a></p>
-<h2 id="修改主题模板">修改主题模板</h2>
-<p>在Gridea theme模板的<strong>head.ejs</strong>中引入</p>
-<pre><code class="language-html">&lt;head&gt;
-    ..
-    &lt;script src='//unpkg.com/valine/dist/Valine.min.js'&gt;&lt;/script&gt;
-    ...
-&lt;/head&gt;
-</code></pre>
-<p>在<strong>post.ejs</strong>文章详情页模板中文章末尾的位置添加下面的代码</p>
-<pre><code class="language-html">&lt;div id=&quot;vcomments&quot;&gt;&lt;/div&gt;
-    &lt;script&gt;
-        new Valine({
-            el: '#vcomments',
-            appId: '&lt;API_ID&gt;',
-            appKey: '&lt;API_Key&gt;'
-        })
-    &lt;/script&gt;
-</code></pre>
-<p>appid和和appkey替换成leancloud中的应用key即可。修改完成后点击保存，然后同步，就可以了。记得在Gridea客户端中把配置中的评论关掉。</p>
-<p>打开文章详情页，显示评论框就成功了。</p>
-<figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170592469-assets/web-upload/9209fe50-a1b7-47e2-bc51-5cbb67b0931d.png" alt=""></figure>
-<h2 id="使用修改版本的valine-by-deserts">使用修改版本的valine--by  <a href="https://deserts.io/diy-a-comment-system/">Deserts</a></h2>
-<p>作者教程地址：https://deserts.io/diy-a-comment-system/</p>
-<p>这是一个修改版本的valine，默认评论框是不显示的，点击才显示评论框，并且增加了表情包。本站使用的是修改版本的valine评论系统。</p>
-<figure data-type="image" tabindex="2"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170803350-assets/web-upload/bd5913e0-6031-45d0-ac58-07dab805d8d6.png" alt=""></figure>
-<p>点击后</p>
-<figure data-type="image" tabindex="3"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170833611-assets/web-upload/e99b404c-e918-496e-a9fc-afd88f64bb83.png" alt=""></figure>
-<p>同样需要先注册leancloud,以及<a href="https://valine.js.org/quickstart.html">配置leancloud</a></p>
-<h2 id="修改主题模板-2">修改主题模板</h2>
-<p>在<strong>post.ejs</strong>文章详情页模板中文章末尾的位置添加下面的代码</p>
-<pre><code class="language-html">&lt;!--载入js，在&lt;/body&gt;之前插入即可--&gt;
-    &lt;!--Leancloud 操作库:--&gt;
-    &lt;script src=&quot;//cdn1.lncld.net/static/js/3.0.4/av-min.js&quot;&gt;&lt;/script&gt;
-    &lt;!--Valine 的核心代码库--&gt;
-    &lt;script src=&quot;/media/scripts/Valine.min.js&quot;&gt;&lt;/script&gt;
-&lt;div class=&quot;comment&quot;&gt;&lt;/div&gt;
-&lt;script&gt;
-    new Valine({
-        // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
-        av: AV, 
-        el: '.comment',
-        emoticon_url: 'https://cloud.panjunwen.com/alu',
-  emoticon_list: [&quot;狂汗.png&quot;,&quot;不说话.png&quot;,&quot;汗.png&quot;,&quot;坐等.png&quot;,&quot;献花.png&quot;,&quot;不高兴.png&quot;,&quot;中刀.png&quot;,&quot;害羞.png&quot;,&quot;皱眉.png&quot;,&quot;小眼睛.png&quot;,&quot;暗地观察.png&quot;],
-  app_id: 'G5Iux4N6zmtNIABC1z81F5So-MdYXbMMI',
-  app_key: 'nrGvHcHguBfswdoUgSoXi3Em',
-  placeholder: '评论留言'
-    });
-&lt;/script&gt;    
-</code></pre>
-<h3 id="注意">注意</h3>
-<p>Valine.min.js,你可以使用我这个站点的，把它<a href="https://kveln.cn/media/scripts/Valine.min.js">下载</a>下来，放到主题模板文件中的media中，注意路径。</p>
-<p>本站使用的是leancloud国际站点，添加代码后，发现显示错误401、error、Unauthorized.经过<a href="https://miracol.cn/">文中君</a></p>
-<p>提醒，手动在leancloud应用-存储中添加Comment这个class就可以了。</p>
-<figure data-type="image" tabindex="4"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563172735024-assets/web-upload/9ebc6aff-e198-4484-9bc2-1faf98875415.png" alt=""></figure>
-<h2 id="使用valine-admin管理评论">使用Valine Admin管理评论</h2>
-<p>Valine Admin主要实现评论邮件通知、评论管理、垃圾评论过滤等功能。支持完全自定义的邮件通知模板。</p>
-<p>安装教程：<a href="https://github.com/DesertsP/Valine-Admin">Valine Admin安装教程</a></p>
-<p>Enjoy it😊!</p>
 ]]></content>
     </entry>
     <entry>
@@ -690,36 +553,6 @@ git push
 <p>这是CSDN上的解决方案，试了一下，第一个方案没用，第二个倒是可以用，但是需要登录微博，太麻烦。  这里是CSDN的方案：<a href="https://blog.csdn.net/zuliang001/article/details/88763108">https://blog.csdn.net/zuliang001/article/details/88763108</a></p>
 <h2 id="解决方案2">解决方案2</h2>
 <p>登录一下网页版的有道云笔记<a href="https://note.youdao.com/">https://note.youdao.com/</a>，然后再去点击网页简报插件，这个时候插件就能用了，不知道什么原理，但是解决了问题。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[记录一下2019年书单]]></title>
-        <id>https://kveln.cn/post/books of 2019 (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.14)</id>
-        <link href="https://kveln.cn/post/books of 2019 (来自WdeMacBook-Pro.local的冲突副本 2019-10-25_20.28.14)">
-        </link>
-        <updated>2019-06-10T13:01:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>记录一下2019年要看的书，基本都是乘着京东或者当当打折的时候买的，也有部分在微信读书上看的</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>记录一下2019年要看的书，基本都是乘着京东或者当当打折的时候买的，也有部分在微信读书上看的</p>
-<!-- more -->
-<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5561283"><label class="task-list-item-label" for="task-item-5561283"> 《流量池》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3650709"><label class="task-list-item-label" for="task-item-3650709"> 《上瘾：让用户养成使用习惯的四大产品逻辑》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9426577"><label class="task-list-item-label" for="task-item-9426577"> 《游戏改变世界》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7630647"><label class="task-list-item-label" for="task-item-7630647"> 《成瘾：如何设计让人上瘾的产品、品牌和观念》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4028617"><label class="task-list-item-label" for="task-item-4028617"> 《参与感：小米口碑营销内部手册》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4717831"><label class="task-list-item-label" for="task-item-4717831"> 《人工智能产品经理：AI时代的PM修炼手册》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8623649"><label class="task-list-item-label" for="task-item-8623649"> 《新零售：低价高效的数据赋能之路》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3999066"><label class="task-list-item-label" for="task-item-3999066"> 《我不是产品经理：移动互联网商业模式下的用户增长》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9397275"><label class="task-list-item-label" for="task-item-9397275"> 《幕后产品：打造突破式产品思维》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4294580"><label class="task-list-item-label" for="task-item-4294580"> 《运营之光：我的互联网运营方法论与自白》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5610446"><label class="task-list-item-label" for="task-item-5610446"> 《破茧成蝶2：以产品为中心的设计革命》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4210496"><label class="task-list-item-label" for="task-item-4210496"> 《薛兆丰经济学讲义》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8149236"><label class="task-list-item-label" for="task-item-8149236"> 《创投42章经》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2203511"><label class="task-list-item-label" for="task-item-2203511"> 《刷新：重新发现商业与未来》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-444402"><label class="task-list-item-label" for="task-item-444402"> 《大败局》</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-3562071"><label class="task-list-item-label" for="task-item-3562071"> 《激荡四十年：中国企业1978-2018》</label></li>
-</ul>
 ]]></content>
     </entry>
     <entry>
