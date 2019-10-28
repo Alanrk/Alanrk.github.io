@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>Kveln&apos;s Blog</title>
-    <updated>2019-10-28T13:41:57.124Z</updated>
+    <updated>2019-10-28T15:28:14.568Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -198,9 +198,9 @@ git push
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3254224"><label class="task-list-item-label" for="task-item-3254224"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8222301"><label class="task-list-item-label" for="task-item-8222301"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2684435"><label class="task-list-item-label" for="task-item-2684435"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-955299"><label class="task-list-item-label" for="task-item-955299"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5545614"><label class="task-list-item-label" for="task-item-5545614"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5855854"><label class="task-list-item-label" for="task-item-5855854"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
@@ -210,9 +210,9 @@ git push
         <link href="https://kveln.cn/post/100">
         </link>
         <updated>2019-10-13T14:47:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>手机是 iPhone 7plus，安装了 iOS 13， Airdrop 到 macOS 发现图片都是 HEIC 格式,前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现图片是HEIC的格式。HEIC 是 iOS 11更新后，iPhone 7 及其后硬件，在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
+        <summary type="html"><![CDATA[<p>前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现Airdrop 到 macOS 图片都是 HEIC 格式。HEIC 是 iOS 11更新后，iPhone 7 及其后硬件，在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>手机是 iPhone 7plus，安装了 iOS 13， Airdrop 到 macOS 发现图片都是 HEIC 格式,前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现图片是HEIC的格式。HEIC 是 iOS 11更新后，iPhone 7 及其后硬件，在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
+        <content type="html"><![CDATA[<p>前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现Airdrop 到 macOS 图片都是 HEIC 格式。HEIC 是 iOS 11更新后，iPhone 7 及其后硬件，在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
 <!-- more -->
 <h2 id="怎么解决">怎么解决</h2>
 <h3 id="1-以前已经拍摄的照片需要手动转换格式">1、以前已经拍摄的照片需要手动转换格式。</h3>
