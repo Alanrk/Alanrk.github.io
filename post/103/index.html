@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="kveln,Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等">
+  <meta name="description" content="kveln,Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等">
+  <meta name="author" content="kveln">
+  <title>删除Mac下Git上传项目代码时产生的.DS_Store文件 | Kveln&#39;Blog</title>
+  <meta property="og:title" content="Kveln'Blog-产品、设计、开发、工具、成长"/>
+  <meta property="og:description" content="Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等"/>
+  <meta property="og:url" content="https://kveln.cn/"/>
+  <meta property="og:locale" content="zh-CN"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Kveln'Blog-产品，设计，开发，工具，成长"/>
+  <link href="https://kveln.cn/media/css/bootstrap.min.css" rel="stylesheet">
+  <!--  <link href="https://kveln.cn/media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="删除Mac下Git上传项目代码时产生的.DS_Store文件 | Kveln&#39;Blog » Feed" href="https://kveln.cn/atom.xml">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <script src="https://kveln.cn/media/scripts/jquery.min.js"></script>
+  <link href="https://kveln.cn/styles/main.css" rel="stylesheet">
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138993560-3"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-138993560-3');</script>
+  
+
+  </head>
+  <body>
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://kveln.cn">Kveln&#39;Blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/post/about/">关于</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/gallery.html">摄影</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/movie.html">电影</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/atom.xml">订阅</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="http://www.pmdaily.cc/">导航</a>
+              
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('https://kveln.cn/media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+            <a href="https://kveln.cn/tag/XjFhQAgE9" class="tag">Git</a>
+            
+            <a href="https://kveln.cn/tag/zZ56dvNqU" class="tag">Mac</a>
+            
+        </span>
+            <h1>删除Mac下Git上传项目代码时产生的.DS_Store文件</h1>
+            <span class="meta">
+            	Posted on
+              2019.10.25，2 min read
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-content">
+          <p>最近在 Mac 中使用 Git 上传项目时，发现 GitHub 仓库的每个文件夹下都生成了一个 .DS_Store 的文件，好奇查了一下这个文件格式，在网上搜索了一下解决办法，这里记录一下怎么删除 .DS_Store 文件以及如何在后续使用 Git时忽略掉 .DS_Store 文件。</p>
+<!-- more -->
+<h3 id="ds_store">.DS_Store</h3>
+<p>.DS_Store 是 Mac OS 保存文件夹的自定义属性的隐藏文件，如文件的图标位置或背景色，删除后会自动生成，包含了一些文件的个人信息，如果不处理的话，可能会有一些你不一定希望别人看到的信息。</p>
+<h3 id="解决办法1创建一个-gitignore-文件来忽略-ds_store">解决办法1:创建一个 .gitignore 文件来忽略 .DS_Store</h3>
+<p>首先需要删除项目文件夹下已经生成的 .DS_Store 文件。</p>
+<p>终端切换到项目文件夹，输入 <code>git status</code> 来查看是否有 .DS_Store 文件，如果有相关文件，终端输入下面的命令将它删除。</p>
+<pre><code>find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+</code></pre>
+<p>创建一个名为.gitignore的文件</p>
+<pre><code>touch .gitignore
+</code></pre>
+<p>打开创建好的 .gitignore文件</p>
+<pre><code>open .gitignore
+</code></pre>
+<p><strong>输入 .DS_Store ，然后换行继续输入 /.DS_Store ，command +s保存</strong></p>
+<p>更新项目</p>
+<pre><code>git add --all
+</code></pre>
+<p>提交到远程仓库</p>
+<pre><code>git commit -m '.DS_Store ignore'
+git push
+</code></pre>
+<p>上面的办法只能对这个项目文件夹起作用，其它的 Git 项目文件夹要想忽略，还要重新搞一遍，所以可以做一盒全局忽略。</p>
+<h3 id="解决办法2创建全局-gitignore-文件来忽略-ds_store">解决办法2:创建全局 .gitignore 文件来忽略 .DS_Store</h3>
+<p>创建 .gitignore_global 文件</p>
+<pre><code>touch .gitignore_global 
+</code></pre>
+<p>打开创建好的 .gitignore_global 文件</p>
+<pre><code>Open .gitignore_global
+</code></pre>
+<p><strong>输入 .DS_Store ，然后换行继续输入 /.DS_Store ，command +s保存</strong></p>
+<p>打开 .gitconfig</p>
+<pre><code>open .gitconfig
+</code></pre>
+<p>在 ~/.gitconfig 中引入 .gitignore_global</p>
+<pre><code>[core]
+​    excludesfile = /Users/w/.gitignore_global
+</code></pre>
+<p>然后更新提交项目即可</p>
+<blockquote>
+<p>注意：user/后面填写你的电脑的用户名</p>
+</blockquote>
+
+           
+          <p class="next-post">下一篇：
+            <a href="https://kveln.cn/post/102">
+              <span class="post-title">
+                Gridea 主题 “clean” 
+              </span>
+            </a>
+            <span>&rarr;</span>
+          </p>
+        
+        <div class="comment">
+          
+        <!--载入js，在</body>之前插入即可-->
+                              <!--Leancloud操作库:-->
+                              <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+                              <!--Valine的核心代码库-->
+                              <script src="/media/scripts/Valine.min.js"></script>
+                              <div class="comment"></div>
+                              <script>new Valine({
+                                  av: AV,
+                                  el: '.comment',
+                                  lang: 'zh-cn',
+                                  admin_email: 'moorel@qq.com',
+                                  emoticon_url: 'https://cloud.panjunwen.com/alu',
+                                  emoticon_list: ["吐.png","喷血.png","狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","中指.png","尴尬.png","瞅你.png","想一想.png","中枪.png","得意.png","肿包.png","扇耳光.png","亲亲.png","惊喜.png","脸红.png","无所谓.png","便便.png","愤怒.png","蜡烛.png","献黄瓜.png","内伤.png","投降.png","观察.png","看不见.png","击掌.png","抠鼻.png","邪恶.png","看热闹.png","口水.png","抽烟.png","锁眉.png","装大款.png","吐舌.png","无奈.png","长草.png","赞一个.png","呲牙.png","无语.png","阴暗.png","不出所料.png","咽气.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png","黑线.png","喜极而泣.png","喷水.png","深思.png","鼓掌.png","暗地观察.png"],
+                                  app_id: 'G5Iux4N6zmtNIABC1z81F5So-MdYXbMMI',
+                                  app_key: 'nrGvHcHguBfswdoUgSoXi3Em',
+                                  placeholder: '评论留言'
+                                });</script>
+        </div>
+      </span>
+        </div>
+      </div>
+    </div>
+  </article>  
+ <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+              
+            
+            <li class="list-inline-item">
+              <a href="https://twitter.com/HiKveln" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/hi_moorel/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Kveln'Blog 2019<br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://kveln.cn/media/scripts/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://kveln.cn/media/scripts/clean-blog.min.js"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
+

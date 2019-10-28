@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+  <meta name="referrer" content="never">
+  <meta name="keywords" content="kveln,Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等">
+  <meta name="description" content="kveln,Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等">
+  <meta name="author" content="kveln">
+  <title>Kveln&#39;Blog</title>
+  <meta property="og:title" content="Kveln'Blog-产品、设计、开发、工具、成长"/>
+  <meta property="og:description" content="Kveln'Blog，产品经理的个人博客,产品,设计,开发,工具,成长等"/>
+  <meta property="og:url" content="https://kveln.cn/"/>
+  <meta property="og:locale" content="zh-CN"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Kveln'Blog-产品，设计，开发，工具，成长"/>
+  <link href="https://kveln.cn/media/css/bootstrap.min.css" rel="stylesheet">
+  <!--  <link href="https://kveln.cn/media/css/all.min.css" rel="stylesheet" type="text/css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="alternate" type="application/rss+xml" title="Kveln&#39;Blog » Feed" href="https://kveln.cn/atom.xml">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/highlight.min.js"></script>
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
+  <script src="https://kveln.cn/media/scripts/jquery.min.js"></script>
+  <link href="https://kveln.cn/styles/main.css" rel="stylesheet">
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138993560-3"></script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-138993560-3');</script>
+  
+
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://kveln.cn">Kveln&#39;Blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/post/about/">关于</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/archives">归档</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/tags">标签</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/gallery.html">摄影</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/movie.html">电影</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="https://kveln.cn/atom.xml">订阅</a>
+              
+          </li>
+          
+          <li class="nav-item">
+              
+              <a class="nav-link" href="http://www.pmdaily.cc/">导航</a>
+              
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <header class="masthead" style="background-image: url('https://kveln.cn/media/images/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>Kveln&#39;Blog</h1>
+            <span class="subheading">Stay hungry,Stay foolish!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+      <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+       
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/103">
+            <h2 class="post-title">
+              删除Mac下Git上传项目代码时产生的.DS_Store文件
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>最近在 Mac 中使用 Git 上传项目时，发现 GitHub 仓库的每个文件夹下都生成了一个 .DS_Store 的文件，好奇查了一下这个文件格式，在网上搜索了一下解决办法，这里记录一下怎么删除 .DS_Store 文件以及如何在后续使用 Git时忽略掉 .DS_Store 文件。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.10.25</span>
+             <span>,</span>
+             <span class="post-stats">2 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/102">
+            <h2 class="post-title">
+              Gridea 主题 “clean”
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>又一款自制 Gridea 免费主题，增加对任务列表、行内代码、代码块、文章目录、表格等的支持。包括首页、归档页、标签页等，头部背景图在主题文件夹 media/images/home-bg.jpg，可自行替换，命名为 home-bg 即可。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.10.24</span>
+             <span>,</span>
+             <span class="post-stats">1 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/101">
+            <h2 class="post-title">
+              Markdown 测试文章
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.10.21</span>
+             <span>,</span>
+             <span class="post-stats">2 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/100">
+            <h2 class="post-title">
+              iOS Airdrop 至 macOS，图是 HEIC 格式怎么办
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>手机是 iPhone 7plus，安装了 iOS 13， Airdrop 到 macOS 发现图片都是 HEIC 格式,前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现图片是HEIC的格式。HEIC 是 iOS 11更新后，iPhone 7 及其后硬件，在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.10.13</span>
+             <span>,</span>
+             <span class="post-stats">1 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/99">
+            <h2 class="post-title">
+              年轻人的第一台MacBookPro
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>大学时候买的一台笔记本电脑，一直用到了今年，用了大概 6、7 年了，屏幕和电源都不太好了，女朋友推荐我换MacBookpro，十一前在拼多多百亿补贴上车，已经用了一段时间了，不得不说一句，拼多多真香！</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.10.10</span>
+             <span>,</span>
+             <span class="post-stats">1 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/20">
+            <h2 class="post-title">
+              阿里云轻应用服务器安装宝塔面板
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>今天通过阿里云开发者社区的开发者认证测试，就能获得一张优惠券<a href="https://developer.aliyun.com/certification?inviteCode=loxghi4ez6ij4">阿里云开发者认证活动地址</a>。我也去撸了一张200元的优惠券，买了一个阿里云香港的轻应用服务器，想着在上面安装一下宝塔面板，下面记录一下小白安装宝塔的过程。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.09.03</span>
+             <span>,</span>
+             <span class="post-stats">3 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/Ne Zha">
+            <h2 class="post-title">
+              《哪吒之魔童降世》并没有那么好
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>半年没看电影了，昨天终于去看了《哪吒之魔童降世》，这部动漫电影目前在总票房榜上排名第3，网上也是一片好评，但是看完，感觉还是和期望有一点差距。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.08.26</span>
+             <span>,</span>
+             <span class="post-stats">2 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/gridea-theme-zero">
+            <h2 class="post-title">
+              Gridea主题zero
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>一款简洁专注于写作的Gridea博客主题,网站主题移植参考于<a href="https://blog.caicai.me/">菩提树下</a>,也是目前本博客使用的主题。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.07.30</span>
+             <span>,</span>
+             <span class="post-stats">1 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/qE678A4ce">
+            <h2 class="post-title">
+              为你的Gridea博客加上Valine评论系统
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.07.15</span>
+             <span>,</span>
+             <span class="post-stats">4 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        <div class="post-preview">
+          <a href="https://kveln.cn/post/WpCEDNLIl">
+            <h2 class="post-title">
+              损失厌恶和沉没成本
+            </h2>
+            </a>
+            <h3 class="post-subtitle">
+              <p>今天接触到了两个词，“损失厌恶”和“沉没成本”，感觉挺有意思的，整理了一下相关的概念和案例。</p>
+
+            </h3>
+          <p class="post-meta">
+             <span class="time">2019.07.10</span>
+             <span>,</span>
+             <span class="post-stats">7 min read</span>
+            </p>
+        </div>
+        <hr>
+        <div class="clearfix">
+        </div>
+        
+        
+        
+        <a class="btn btn-primary float-right" href="https://kveln.cn/page/2/">下一页 &rarr;</a>
+        
+      </div>
+    </div>
+  </div>
+
+  
+    <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            
+              
+            
+            <li class="list-inline-item">
+              <a href="https://twitter.com/HiKveln" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+            
+              
+            
+              
+            
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/hi_moorel/" target="_blank">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+              
+            
+              
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Kveln'Blog 2019<br><a href="https://github.com/getgridea/gridea" class="Themeinfo">Powered by Gridea</a></p>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://kveln.cn/media/scripts/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://kveln.cn/media/scripts/clean-blog.min.js"></script>
+  <style type="text/css">a.back_to_top{text-decoration:none;position:fixed;bottom:40px;right:30px;background:#f0f0f0;height:40px;width:40px;border-radius:50%;line-height:36px;font-size:18px;text-align:center;transition-duration:.5s;transition-propety:background-color;display:none}a.back_to_top span{color:#888}a.back_to_top:hover{cursor:pointer;background:#dfdfdf}a.back_to_top:hover span{color:#555}@media print,screen and(max-width:580px){.back_to_top{display:none!important}}</style>
+<a id="back_to_top" href="#" class="back_to_top">
+  <span>▲</span></a>
+<script>$(document).ready((function(_this) {
+    return function() {
+      var bt;
+      bt = $('#back_to_top');
+      if ($(document).width() > 480) {
+        $(window).scroll(function() {
+          var st;
+          st = $(window).scrollTop();
+          if (st > 30) {
+            return bt.css('display', 'block')
+          } else {
+            return bt.css('display', 'none')
+          }
+        });
+        return bt.click(function() {
+          $('body,html').animate({
+            scrollTop: 0
+          },
+          800);
+          return false
+        })
+      }
+    }
+  })(this));</script>
+  </body>
+</html>
