@@ -126,15 +126,15 @@
   <article>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="col-lg-8 col-md-10 mx-auto post-content">
           <p>今天通过阿里云开发者社区的开发者认证测试，就能获得一张优惠券<a href="https://developer.aliyun.com/certification?inviteCode=loxghi4ez6ij4">阿里云开发者认证活动地址</a>。我也去撸了一张200元的优惠券，买了一个阿里云香港的轻应用服务器，想着在上面安装一下宝塔面板，下面记录一下小白安装宝塔的过程。</p>
 <!-- more -->
-<h2 id="购买轻应用服务器">购买轻应用服务器</h2>
+<h3 id="购买轻应用服务器">购买轻应用服务器</h3>
 <p>我购买的是最低的配置，CPU1核，内存1G，25G SSD。搜索了一下，网上说阿里云提供的LNMP有一些小问题，所以我打算安装CentOS，然后再通过宝塔面板安装LNMP。</p>
-<h2 id="设置服务器密码">设置服务器密码</h2>
+<h3 id="设置服务器密码">设置服务器密码</h3>
 <p>点击重置密码设置服务器的密码，后面安装的时候要用。<br>
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1567524796254-assets/web-upload/5dd0a4a5-9e46-4cd3-81ff-ddcef13d85c3.png" alt="设置服务器密码"></p>
-<h2 id="开放服务器端口">开放服务器端口</h2>
+<h3 id="开放服务器端口">开放服务器端口</h3>
 <p>点击左侧安全&gt;防火墙，点击“添加规则”开放以下端口</p>
 <table>
 <thead>
@@ -187,7 +187,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="安装宝塔面板">安装宝塔面板</h2>
+<h3 id="安装宝塔面板">安装宝塔面板</h3>
 <p>点击右上角的远程连接，开始安装宝塔面板（<a href="https://www.bt.cn/bbs/thread-19376-1-1.html">宝塔面板官方安装教程</a>）。</br></p>
 <p>以管理员身份运行以下命令,若没有以管理员身份运行下面命令，会出现<code>you need to be root to perform this command</code>提示，这个时候输入su 回车输入密码，即可解决。</p>
 <p><strong>Centos安装命令：</strong></p>
@@ -195,10 +195,10 @@
 <p>等待安装完成，注意在安装过程中需要输入y来确认。</p>
 <figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1567524805951-assets/web-upload/b0e7b8a2-d7d6-4595-ac2c-48e8acda8e1f.png" alt="宝塔面板安装完成"></figure>
 <p>等到出现如下的界面，则说明已经安装成功，这个时候，我们把图中的宝塔地址和用户名以及密码保存下来，</p>
-<h2 id="登录到宝塔面板后台安装web环境">登录到宝塔面板后台，安装web环境</h2>
+<h3 id="登录到宝塔面板后台安装web环境">登录到宝塔面板后台，安装web环境</h3>
 <p>选择推荐的就好，点击一键安装，然后静待安装完成即可。</p>
 <figure data-type="image" tabindex="2"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1567524809315-assets/web-upload/ce6c4e1d-0869-40c0-a159-fac17cfed07d.jpeg" alt="安装Web环境"></figure>
-<h2 id="连接ftp遇到的问题">连接FTP遇到的问题</h2>
+<h3 id="连接ftp遇到的问题">连接FTP遇到的问题</h3>
 <p>1.FTP连接报错        <code>421 Unable to read the indexed puredb file (or old format detected) - Try pure-pw mkdb</code></p>
 <p>解决：在宝塔后台FTP管理中添加一个用户，同时修改ftp配置文件 将ForcePassiveIP前面的#去掉 将192.168.0.1替换成服务器的外网IP。更多见 <a href="https://www.bt.cn/bbs/thread-1903-1-1.html">FTP连接不上的解决方法</a></p>
 <figure data-type="image" tabindex="3"><img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1567524812363-assets/web-upload/e9d92e09-dd3f-490a-babe-48773ed6f0eb.png" alt="FTP连接报错"></figure>
@@ -207,7 +207,7 @@
           <p class="next-post">下一篇：
             <a href="https://kveln.cn/post/Ne Zha">
               <span class="post-title">
-                《哪吒之魔童降世》并没有那么好
+                《哪吒之魔童降世》并没有那么好&rarr;
               </span>
             </a>
           </p>

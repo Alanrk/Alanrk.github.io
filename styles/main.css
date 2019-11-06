@@ -5,7 +5,7 @@ body {
 }
 p {
   line-height: 1.8;
-  margin: 0px 0 30px;
+  margin: 0px 0 1em;
   text-align: justify;
 }
 p a {
@@ -251,7 +251,7 @@ header.masthead .post-heading .meta a {
 .post-preview > .post-meta {
   font-size: 16px;
   font-style: italic;
-  margin-top: 0;
+  margin-top: 4px;
   color: #868e96;
   font-family: Lora, 'Times New Roman', serif;
 }
@@ -383,9 +383,8 @@ code.hljs {
   padding: 15px 20px;
   line-height: 1.75;
   font-size: 14px;
-  margin-bottom: 2.2em;
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 code,
 tt {
@@ -650,9 +649,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 1rem;
+  margin: 1.5em 0 0.8em 0;
 }
 h3.post-subtitle {
+  margin-top: 0;
   margin-bottom: 0;
 }
 .tag-list .tag {
@@ -670,4 +670,7 @@ h3.post-subtitle {
 .post-preview.tag-list {
   display: inline-block;
   margin-top: 20px;
+}
+.post-preview img {
+  margin: 10px auto;
 }
