@@ -765,3 +765,9 @@ padding: 1rem 0;
 li.nav-item {
     margin: 0;
 }
+h2.title {
+    margin: 0;
+}
+h3.category {
+    margin: 0;
+}
