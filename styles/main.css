@@ -674,3 +674,7 @@ h3.post-subtitle {
 .post-preview img {
   margin: 10px auto;
 }
+p.next-post {
+  border-left: 2px solid #333;
+  padding-left: 16px;
+}
