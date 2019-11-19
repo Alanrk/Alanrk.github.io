@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>kveln&apos;s blog</title>
-    <updated>2019-11-19T08:48:38.472Z</updated>
+    <updated>2019-11-19T10:40:31.473Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -10,6 +10,93 @@
     <logo>https://kveln.cn/images/avatar.png</logo>
     <icon>https://kveln.cn/favicon.ico</icon>
     <rights>All rights reserved 2019, kveln&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[优惠券系统设计复盘（1）]]></title>
+        <id>https://kveln.cn/post/104</id>
+        <link href="https://kveln.cn/post/104">
+        </link>
+        <updated>2019-11-01T13:10:25.000Z</updated>
+        <content type="html"><![CDATA[<p>这篇文章主要记录一下我在一个项目中做简单的优惠券系统时的一些思考和复盘。</p>
+<h3 id="为什么要做优惠券">为什么要做优惠券</h3>
+<p>商家在营销活动中使用优惠券是最常见的方式，通过优惠券来快速获取用户，或者刺激用户在平台上消费，提升平台的订单量、GMV、客单价等，在拉新、留存、促活、复购、召回等过程中都可以使用。经典的比如“双十一”、“第 2 杯半价”、“网约车大战”、”瑞幸咖啡“等等，都起到了显著效果。</p>
+<h3 id="优惠券背后心理机制">优惠券背后心理机制</h3>
+<p><strong>贪图便宜</strong>：商家给了优惠券，不用白不用，用户总是希望能花最少的钱来买到商品；<br>
+<strong>损失厌恶</strong>：生活中的例子：商家通常有各种满减，比如满 xx 元包邮，用户因为不想付邮费而选择购买更多的商品；各种满减券，满 88 才能使用某优惠券，为了避免这个优惠券过期掉，我们购买了更多的商品。；定金机制；付尾款机制；<br>
+<strong>沉没成本</strong>：各种互联网产品用优惠券、积分、会员等形式量化用户的沉没成本，从而留住用户，比如饿了么的超级会员领无门槛红包设计，你已经买了会员，优惠券不领白不领，领了优惠券你就可能在饿了么平台上消费；<br>
+<strong>价格歧视</strong>：</p>
+<h3 id="我参与的项目中优惠券的业务模式">我参与的项目中优惠券的业务模式</h3>
+<p><strong>业务背景</strong>：线下的门店提供服务，用户扫码支付服务费用。涉及到多网点、多个服务项目。门店由公司直营，所以发放优惠券的主体是本公司，不涉及类似电商中的平台券、商家券。<br>
+<strong>目的</strong>：通过发放优惠券的形式来快速获取用户（拉新），促活，提高客单价，召回流失用户；支撑与外部合作伙伴的一些联合营销需求。</p>
+<h3 id="优惠券系统设计思路">优惠券系统设计思路</h3>
+<p>本次设计的优惠券系统，只是简单的优惠券系统，考虑到开发资源的限制，并没有做相应的活动系统，并且优惠券按照优惠方式来分的话，只设计了“金额券”和“折扣券”。</p>
+<h3 id="谁来使用">谁来使用</h3>
+<p><strong>用户</strong>：领取 →使用<br>
+<strong>运营者</strong>：新建 /配置 →财务审核 →发放 →统计</p>
+<h3 id="优惠券生命周期">优惠券生命周期</h3>
+<p>创建优惠券 → 审核  → 推广 →发放优惠券 →使用   →数据统计  → 结束</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1573959582952-assets/web-upload/4ce77a03-346a-4223-9c92-3a906a41826b.jpeg" alt=""></figure>
+<h3 id="关于优惠券业务场景的分类">关于优惠券业务场景的分类</h3>
+<p>优惠券是其实是规则的集合体，从用户角度来说，主要包括“谁能领”、“怎么领”、“有什么用”、“满足什么条件才能用”等等，任何一张优惠券都是这几个维度的组合。</p>
+<p><strong>按领取限制分</strong></p>
+<p>按照新老客户：例如只有新客户能领；<br>
+普通优惠券：所有用户都能领取；<br>
+指定用户优惠券：某一类人可以领，例如具有某个标签、某个会员等级</p>
+<p><strong>按照领取方式</strong></p>
+<p>手动领取：用户手动点击领取；<br>
+系统发放：系统发放优惠券到用户账户中；</p>
+<p><strong>按可用服务分</strong></p>
+<p>通用券：全部服务项目通用；<br>
+单项服务：只能用于某项服务项目；<br>
+指定多项服务：手动指定几项服务项目；</p>
+<p><strong>按可用网点分</strong></p>
+<p>通用券：全部网点通用；<br>
+区域券：只能用于某个区域的网点；<br>
+指定多网点：手动指定多个网点；</p>
+<p><strong>按照有效期分类</strong></p>
+<p>普通优惠券：一般指优惠券的使用时间在指定的时间内，例如在只限“双十一”当天使用；<br>
+限时优惠券：例如自领取时间后 24 小时内有效；</p>
+<p><strong>按照使用门槛</strong></p>
+<p>满减券：满足 xx 元才能使用；<br>
+直减券：无金额限制；</p>
+<h4 id="创建优惠券">创建优惠券</h4>
+<h5 id="基本信息">基本信息</h5>
+<p><strong>名称</strong>：优惠券的名字，方便运营人员标识不同的优惠券，同时一个好的名字也会吸引用户；<br>
+<strong>发放总量</strong>：优惠券的总发放张数，便于控制成本；<br>
+<strong>优惠形式</strong>：金额优惠、折扣优惠；<br>
+<strong>优惠内容</strong>：优惠金额、折扣<br>
+<strong>发放时间</strong>：这里指优惠券开始发放的时间，不是指优惠券的有效期；<br>
+<strong>每天限领数</strong>：这里指限制某个优惠券每天最多可以被领取的张数；</p>
+<h5 id="领取限制">领取限制</h5>
+<p><strong>客户类型</strong>：新老用户、邀请好友、全部用户、指定用户；<br>
+<strong>每人限领数</strong>：限制每个用户可以领取的数量；</p>
+<h5 id="使用限制">使用限制</h5>
+<p><strong>有效期限制</strong>：绝对时间（例如 2019.05.12-2019.05.20）、相对时间（领取后 3 天有效）；<br>
+<strong>门店限制</strong>：所有门店、某几个门店、某区域门店；<br>
+<strong>服务限制</strong>：所有服务通用、指定一个或者多个服务可用；<br>
+<strong>叠加规则</strong>：默认不能叠加；<br>
+<strong>满减限制</strong>：满 xx 元才能使用；</p>
+<h3 id="优惠券的发放领取">优惠券的发放/领取</h3>
+<p>项目中优惠券领取场景主要有下面几种：</p>
+<p><strong>新用户注册</strong>：新用户注册后，系统将自动发放新用户券（需在后台配置）到用户的账户中，无需用户手动领取；<br>
+<strong>邀请好友活动</strong>：老用户将邀请好友的活动页面分享出去，新用户通过这个链接注册成为新用户，老用户即可获得一张优惠券，新用户获得一张新用户券；<br>
+<strong>用户主动领取</strong>：在运营活动中，用户通过h5页面点击领取优惠券；<br>
+<strong>后台手动发放</strong>：后台可给某些带有标签的用户、某个等级的会员、或者某个单独用户进行手动发券；</p>
+<h4 id="优惠券发放通知">优惠券发放通知</h4>
+<p><strong>发送通知</strong>：用户主动领取优惠券成功后，在用户界面上提示领取成功；系统自动发放的优惠券，配合微信模版消息通知和短信通知；<br>
+<strong>过期通知</strong>：在优惠券过期前通知提醒用户；</p>
+<h3 id="优惠券的推广">优惠券的推广</h3>
+<p>创建完优惠券后，怎么让用户知道你在发券，需要对当前的优惠活动进行宣传推广。常见的推广方式有传单、邮件、短信、APP消息通知、异业合作等。</p>
+<h3 id="优惠券的使用">优惠券的使用</h3>
+<p><strong>优惠券的状态</strong>：从用户的角度，优惠券的状态可分为“待使用”、“已使用”、“已过期”这三个状态。“待使用”是优惠券是正常状态，还未使用，也未过期；“已使用”状态是用户支付下单，优惠券就变成“已使用”状态；“已过期”是指用户在优惠券可使用的有效期内未使用；</p>
+<figure data-type="image" tabindex="2"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1574147088996-assets/web-upload/d965ce97-020e-4cde-ab62-278d485a8869.jpeg" alt=""></figure>
+<p><strong>优惠券的选择</strong>：默认为用户选择抵扣金额最大的优惠券；若多张优惠券抵扣金额相同，默认为用户选择最先过期的优惠券；</p>
+<p>优惠券的核销主要在提交订单时进行，主要涉及到优惠券可用性判定和金额计算：</p>
+<p><strong>可用判定</strong>：判定优惠券的金额、时间以及相关的业务规则是否满足，在提交订单时判定；<br>
+<strong>抵扣计算</strong>：优惠券在订单中实际抵扣的金额计算，主要涉及到金额券和折扣券的金额计算，一般在选择优惠券后进行计算。</p>
+<h3 id="优惠券数据统计">优惠券数据统计</h3>
+<p>数据统计主要是对优惠券的领取、使用状况进行统计，跟踪活动效果。在本次项目中受限于项目实际情况，主要统计了发放数量、已领取数量、已使用数量、以及领取率、使用率这几个简单的数据指标。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[腾讯将在视频中插入AI广告]]></title>
         <id>https://kveln.cn/post/-wHpjqmoO</id>
@@ -28,10 +115,7 @@
         <link href="https://kveln.cn/post/103">
         </link>
         <updated>2019-10-25T12:38:24.000Z</updated>
-        <summary type="html"><![CDATA[<p>最近在 Mac 中使用 Git 上传项目时，发现 GitHub 仓库的每个文件夹下都生成了一个 .DS_Store 的文件，好奇查了一下这个文件格式，在网上搜索了一下解决办法，这里记录一下怎么删除 .DS_Store 文件以及如何在后续使用 Git时忽略掉 .DS_Store 文件。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>最近在 Mac 中使用 Git 上传项目时，发现 GitHub 仓库的每个文件夹下都生成了一个 .DS_Store 的文件，好奇查了一下这个文件格式，在网上搜索了一下解决办法，这里记录一下怎么删除 .DS_Store 文件以及如何在后续使用 Git时忽略掉 .DS_Store 文件。</p>
-<!-- more -->
 <h3 id="ds_store">.DS_Store</h3>
 <p>.DS_Store 是 Mac OS 保存文件夹的自定义属性的隐藏文件，如文件的图标位置或背景色，删除后会自动生成，包含了一些文件的个人信息，如果不处理的话，可能会有一些你不一定希望别人看到的信息。</p>
 <h3 id="解决办法1创建一个-gitignore-文件来忽略-ds_store">解决办法1:创建一个 .gitignore 文件来忽略 .DS_Store</h3>
@@ -81,10 +165,7 @@ git push
         <link href="https://kveln.cn/post/102">
         </link>
         <updated>2019-10-23T16:29:49.000Z</updated>
-        <summary type="html"><![CDATA[<p>又一款自制 Gridea 免费主题，增加对任务列表、行内代码、代码块、文章目录、表格等的支持。包括首页、归档页、标签页等，头部背景图在主题文件夹 media/images/home-bg.jpg，可自行替换，命名为 home-bg 即可。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>又一款自制 Gridea 免费主题，增加对任务列表、行内代码、代码块、文章目录、表格等的支持。包括首页、归档页、标签页等，头部背景图在主题文件夹 media/images/home-bg.jpg，可自行替换，命名为 home-bg 即可。</p>
-<!-- more -->
 <h3 id="首页">首页</h3>
 <figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1571823333144-assets/web-upload/f56693a1-9c58-4241-97a3-5e9768e1777d.jpeg" alt=""></figure>
 <hr>
@@ -112,10 +193,7 @@ git push
         <link href="https://kveln.cn/post/101">
         </link>
         <updated>2019-10-21T08:19:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>
-<!-- more -->
 <blockquote>
 <p>此篇仅为测试渲染效果，非教程</p>
 </blockquote>
@@ -210,9 +288,9 @@ git push
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6994457"><label class="task-list-item-label" for="task-item-6994457"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1110155"><label class="task-list-item-label" for="task-item-1110155"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-538612"><label class="task-list-item-label" for="task-item-538612"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8445190"><label class="task-list-item-label" for="task-item-8445190"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8940250"><label class="task-list-item-label" for="task-item-8940250"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8186350"><label class="task-list-item-label" for="task-item-8186350"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
@@ -222,10 +300,7 @@ git push
         <link href="https://kveln.cn/post/100">
         </link>
         <updated>2019-10-13T14:47:34.000Z</updated>
-        <summary type="html"><![CDATA[<p>前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现 Airdrop 到 macOS 图片是HEIC的格式。HEIC 是 iOS 11更新后，iPhone 7 及其后硬件，在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>前些天认证公司的微信公众平台的时候，需要上传图片，反复上传几次都没有成功，结果发现 Airdrop 到 macOS 图片是HEIC的格式。HEIC 是 iOS 11更新后，iPhone 7 及其后硬件，在拍摄照片时的默认图像存储格式。微信公众平台是不支持上传这个格式的图片的。</p>
-<!-- more -->
 <h3 id="1以前已经拍摄的照片需要手动转换格式">1.以前已经拍摄的照片需要手动转换格式。</h3>
 <p>可以使用<a href="https://www.apowersoft.cn/heic-to-jpg">在线的图片格式转换</a>，或者将图片原图通过发送给微信的文件传输助手，然后再保存原图，就能把图片转成 jpg 格式。</p>
 <h3 id="2想要以后拍的照片都默认为-jpg-格式">2.想要以后拍的照片都默认为 jpg 格式</h3>
@@ -240,10 +315,7 @@ git push
         <link href="https://kveln.cn/post/99">
         </link>
         <updated>2019-10-10T14:57:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>大学时候买的一台笔记本电脑，一直用到了今年，用了大概 6、7 年了，屏幕和电源都不太好了，女朋友推荐我换MacBookpro，十一前在拼多多百亿补贴上车，已经用了一段时间了，不得不说一句，拼多多真香！</p>
-]]></summary>
         <content type="html"><![CDATA[<p>大学时候买的一台笔记本电脑，一直用到了今年，用了大概 6、7 年了，屏幕和电源都不太好了，女朋友推荐我换MacBookpro，十一前在拼多多百亿补贴上车，已经用了一段时间了，不得不说一句，拼多多真香！</p>
-<!-- more -->
 <p>下面是开箱图，五码合一，序列号什么的都查了，没问题。</p>
 <figure data-type="image" tabindex="1"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978461114-assets/web-upload/80f35173-16e3-4ccd-8e00-26ab0924544b.jpeg" alt=""></figure>
 <figure data-type="image" tabindex="2"><img src="https://cdn.nlark.com/yuque/0/2019/jpeg/302953/1570978466977-assets/web-upload/031f2c68-abf3-4741-ae9b-b6b1d6d35a18.jpeg" alt=""></figure>
@@ -342,10 +414,7 @@ git push
         <link href="https://kveln.cn/post/Ne Zha">
         </link>
         <updated>2019-08-26T11:46:22.000Z</updated>
-        <summary type="html"><![CDATA[<p>半年没看电影了，昨天终于去看了《哪吒之魔童降世》，这部动漫电影目前在总票房榜上排名第3，网上也是一片好评，但是看完，感觉还是和期望有一点差距。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>半年没看电影了，昨天终于去看了《哪吒之魔童降世》，这部动漫电影目前在总票房榜上排名第3，网上也是一片好评，但是看完，感觉还是和期望有一点差距。</p>
-<!-- more -->
 <figure data-type="image" tabindex="1"><img src="https://img3.doubanio.com/view/photo/l/public/p2563780504.jpg" alt=""></figure>
 <h2 id="剧情">剧情</h2>
 <p>整部电影在剧情上让我感觉只是披着中国神话故事的外衣，夹杂了太多现代的东西。总体没什么特别出彩的地方，可能时长所限，整个剧情的转折在一些方面有些生硬，比如敖丙和哪吒成为好朋友，以及敖丙的黑化，这些剧情缺少铺垫。还有太乙真人在电影中被改变成了一个大胖子，像是电影为了搞笑而强行改编。唯一让我喜欢的是对龙族的改编。</p>
@@ -364,10 +433,7 @@ git push
         <link href="https://kveln.cn/post/gridea-theme-zero">
         </link>
         <updated>2019-07-30T10:52:08.000Z</updated>
-        <summary type="html"><![CDATA[<p>一款简洁专注于写作的Gridea博客主题,网站主题移植参考于<a href="https://blog.caicai.me/">菩提树下</a>,也是目前本博客使用的主题。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>一款简洁专注于写作的Gridea博客主题,网站主题移植参考于<a href="https://blog.caicai.me/">菩提树下</a>,也是目前本博客使用的主题。</p>
-<!-- more -->
 <h3 id="安装方法">安装方法</h3>
 <ul>
 <li>克隆项目到本地</br>GitHub地址：<a href="https://github.com/Alanrk/gridea-theme-zero" target="_blank">点击下载</a>,</br>百度网盘下载链接：<a href="https://pan.baidu.com/s/1TuXPy9LiplTeYtpUDEQW_Q" target="_blank">点击下载</a> 提取码：yi2n</li>
@@ -384,10 +450,7 @@ git push
         <link href="https://kveln.cn/post/qE678A4ce">
         </link>
         <updated>2019-07-15T07:27:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>Gridea提供了两个评论系统，<a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md">Gitalk</a>和<a href="https://github.com/SukkaW/DisqusJS">disqus</a>。Gitalk需要使用Github账号登录，对于没有github账号的人来说不太方便，disqus目前在国内不可用。找了好久，发现了<a href="https://valine.js.org//">valine</a>这个评论系统。</p>
-<!-- more -->
 <h3 id="valine介绍">Valine介绍</h3>
 <p>Valine - 一款快速、简洁且高效的无后端评论系统。</p>
 <p>官网地址：<a href="https://valine.js.org/">https://valine.js.org/</a></p>
@@ -460,10 +523,7 @@ git push
         <link href="https://kveln.cn/post/WpCEDNLIl">
         </link>
         <updated>2019-07-10T10:26:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天接触到了两个词，“损失厌恶”和“沉没成本”，感觉挺有意思的，整理了一下相关的概念和案例。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>今天接触到了两个词，“损失厌恶”和“沉没成本”，感觉挺有意思的，整理了一下相关的概念和案例。</p>
-<!-- more -->
 <h2 id="损失厌恶">损失厌恶</h2>
 <h3 id="概念">概念</h3>
 <p>损失厌恶是指人们面对同样数量的收益和损失时，认为损失更加令他们难以忍受。同量的损失带来的负效用为同量收益的正效用的2.5倍。损失厌恶反映了人们的风险偏好并不是一致的，当涉及的是收益时，人们表现为风险厌恶；当涉及的是损失时，人们则表现为风险寻求。</p>
@@ -526,10 +586,7 @@ git push
         <link href="https://kveln.cn/post/duozhuayu">
         </link>
         <updated>2019-07-01T14:17:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>6.28日晚上多抓鱼推送了一篇微信推文，说是搞了个多抓鱼百货。女朋友看了看上架的商品，发现有一个静音小电扇，对一个在夏天不喜欢开空调的人来说，小电扇是一个很不错的选择，就马上下单了。原价159，多抓鱼卖58，就是下面这个小电扇</p>
-]]></summary>
         <content type="html"><![CDATA[<p>6.28日晚上多抓鱼推送了一篇微信推文，说是搞了个多抓鱼百货。女朋友看了看上架的商品，发现有一个静音小电扇，对一个在夏天不喜欢开空调的人来说，小电扇是一个很不错的选择，就马上下单了。原价159，多抓鱼卖58，就是下面这个小电扇</p>
-<!-- more -->
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1561991677050-2d6fe5a5-e0c5-423e-aa23-c15fadff45a6.png" referrerpolicy="no-referrer" alt="">
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1561991694119-0658a3f5-e812-4d24-94e0-a92e32c8f2e8.png" referrerpolicy="no-referrer" alt="">
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1561991707712-87d9a03a-6b48-4161-ba81-2b5c5e27ebba.png" referrerpolicy="no-referrer" alt="">
@@ -550,10 +607,7 @@ git push
         <link href="https://kveln.cn/post/youdaoyunnote">
         </link>
         <updated>2019-06-13T08:18:29.000Z</updated>
-        <summary type="html"><![CDATA[<p>在谷歌浏览器上安装了有道云笔记的插件，很久没用后，今天点击插件想要收藏一篇文章，发现有道云笔记chrome的插件（网页剪报）失效不能用，点击没反应，后来上网搜索了一些方法，最终解决了，这里记录一下最后的解决方法。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>在谷歌浏览器上安装了有道云笔记的插件，很久没用后，今天点击插件想要收藏一篇文章，发现有道云笔记chrome的插件（网页剪报）失效不能用，点击没反应，后来上网搜索了一些方法，最终解决了，这里记录一下最后的解决方法。</p>
-<!-- more -->
 <h3 id="解决方案1">解决方案1</h3>
 <p>这是CSDN上的解决方案，试了一下，第一个方案没用，第二个倒是可以用，但是需要登录微博，太麻烦。  这里是CSDN的方案：<a href="https://blog.csdn.net/zuliang001/article/details/88763108">https://blog.csdn.net/zuliang001/article/details/88763108</a></p>
 <h3 id="解决方案2">解决方案2</h3>
@@ -566,10 +620,7 @@ git push
         <link href="https://kveln.cn/post/11">
         </link>
         <updated>2019-05-30T15:15:18.000Z</updated>
-        <summary type="html"><![CDATA[<p>对于想要在网上有自己的一个博客网站的人来说，常用的有Wordpress、Typecho 这些免费搭建工具。但是对一些小白来说，需要接触到域名、空间购买、数据库设置这些，还是有些难度的。在前段时间，偶然在网上发现了这个Gridea工具。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>对于想要在网上有自己的一个博客网站的人来说，常用的有Wordpress、Typecho 这些免费搭建工具。但是对一些小白来说，需要接触到域名、空间购买、数据库设置这些，还是有些难度的。在前段时间，偶然在网上发现了这个Gridea工具。</p>
-<!-- more -->
 <p>Gridea 是 一个基于Github Pages 和 Coding Page 静态博客管理工具。我被它简洁清新的界面所吸引，于是先将博客迁移到 Github上，但是由于 Github 服务器在国外的原因，国内访问还是有点慢的，于是又将博客迁移到了 Coding Page 上，下面介绍一下搭建的过程。</p>
 <h3 id="gridea-介绍">Gridea 介绍</h3>
 <p>官方主页：<a href="https://gridea.dev/">https://gridea.dev/</a></p>
@@ -672,10 +723,7 @@ git push
         <link href="https://kveln.cn/post/How do product managers reject unreasonable demands">
         </link>
         <updated>2019-05-28T07:41:38.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天在知乎上看到有个问题:产品经理如何拒绝客户、领导不合理的需求？这个事情很常见，试着回答一下。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>今天在知乎上看到有个问题:产品经理如何拒绝客户、领导不合理的需求？这个事情很常见，试着回答一下。</p>
-<!-- more -->
 <h3 id="换位思考">换位思考</h3>
 <p>客户或者领导提出需求时，实际上有可能提出的是一个不完善的解决方案，或者是一个有需求的模糊的场景。所以我们要站在客户或者领导的角度来分析。</p>
 <h3 id="回到需求本身">回到需求本身</h3>
@@ -727,10 +775,7 @@ git push
         <link href="https://kveln.cn/post/谷歌浏览器设置打开新标签页为自定义网站">
         </link>
         <updated>2019-05-27T10:31:04.000Z</updated>
-        <summary type="html"><![CDATA[<p>使用360极速浏览器等国内浏览器时，可以在新标签页设置自己自定义的网站，但是使用谷歌浏览器时，却不能使用，我在在网上找到了一个可以设置新标签页的插件，名叫New Tab Redirect。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>使用360极速浏览器等国内浏览器时，可以在新标签页设置自己自定义的网站，但是使用谷歌浏览器时，却不能使用，我在在网上找到了一个可以设置新标签页的插件，名叫New Tab Redirect。</p>
-<!-- more -->
 <p>下载地址：<a href="https://new-tab-redirect.apponic.com/">插件主页</a></p>
 <p>Google官方下载地址：<a href="https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=zh-CN">Google插件商店</a></p>
 <p><strong>New Tab Redirect安装方法</strong></p>
@@ -1116,10 +1161,7 @@ git push
         <link href="https://kveln.cn/post/19">
         </link>
         <updated>2019-03-03T14:04:44.000Z</updated>
-        <summary type="html"><![CDATA[<p>整理了一下产品经理在工作中需要知道的常用的数据指标。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>整理了一下产品经理在工作中需要知道的常用的数据指标。</p>
-<!-- more -->
 <h2 id="网站指标">网站指标</h2>
 <h3 id="pv">PV</h3>
 <p>page view，即页面浏览量，用户每 1 次对网站中的每个网页访问均被记录 1 次。用户对同一页面的多次访问，访问量累计。在一定统计周期内用户每次刷新网页一次也被计算一次。PV 并不能真实反映访问者数量。</p>
@@ -1221,10 +1263,7 @@ git push
         <link href="https://kveln.cn/post/buju">
         </link>
         <updated>2018-04-12T09:11:49.000Z</updated>
-        <summary type="html"><![CDATA[<p>静态布局、自适应布局、流式布局、响应式布局、弹性布局等的概念和区别，转自&quot;<a href="https://www.cnblogs.com/yanayana/p/7066948.html">笨鸟儿博客</a></p>
-]]></summary>
         <content type="html"><![CDATA[<p>静态布局、自适应布局、流式布局、响应式布局、弹性布局等的概念和区别，转自&quot;<a href="https://www.cnblogs.com/yanayana/p/7066948.html">笨鸟儿博客</a></p>
-<!-- more -->
 <h3 id="一静态布局static-layout">一.静态布局（Static Layout）</h3>
 <p>即传统Web设计，网页上的所有元素的尺寸一律使用px作为单位。</p>
 <ol>
@@ -1373,10 +1412,7 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
         <link href="https://kveln.cn/post/My-Feelings-on-the-Masters-in-Forbidden-City">
         </link>
         <updated>2017-11-30T07:43:23.000Z</updated>
-        <summary type="html"><![CDATA[<p>昨天晚上一口气看完了《我在故宫修文物》这部纪录片，其中有一个片段给我的印象很深。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>昨天晚上一口气看完了《我在故宫修文物》这部纪录片，其中有一个片段给我的印象很深。</p>
-<!-- more -->
 <p>就是在介绍木器组的时候，屈峰老师在其中说了一段话：&quot;每个人对佛像的理解都不一样，这跟人的性情有关，你看有的人刻的佛，要么奸笑，要么淫笑，还有刻得愁眉苦脸的，很难刻，佛像一刻就知道，那个味道很把握，怎么能刻出那种神秘、纯洁的微笑，那是最难的。</p>
 <p>文物其实跟人是一样的，最早的时候说，玉有六德，以玉比君子，玉就是一块破石头，它有什么德性啊，但是中国人就能从上面看出德性来。所以中国人做一把椅子，就像做一个人一样，他是用人的品格来要求这个椅子。</p>
 <p>中国古代人讲究格物，就是以自身来观物，又以物来观自己。所以古代故宫的这些东西，是有生命的。人在制物的过程中，总是要把自己想办法融到里头去。</p>
@@ -1398,10 +1434,7 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
         <link href="https://kveln.cn/post/10">
         </link>
         <updated>2017-07-31T07:41:41.000Z</updated>
-        <summary type="html"><![CDATA[<p>这篇文章是前些天参加科大讯飞的知乎live“人机交互：如何更愉快地和 AI 唠嗑“的主讲人的讲课实录，在这里贴处来，作为一个记录吧。声明这篇文章仅作为个人学习所用，如有侵权请联系我删除。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>这篇文章是前些天参加科大讯飞的知乎live“人机交互：如何更愉快地和 AI 唠嗑“的主讲人的讲课实录，在这里贴处来，作为一个记录吧。声明这篇文章仅作为个人学习所用，如有侵权请联系我删除。</p>
-<!-- more -->
 <p>这次的知乎live讲解了一下的内容：在人机交互背后究竟有哪些技术原理；需要解决哪些痛点；科大讯飞的 AIUI 有哪些功能；背后的交互链路是什么；开发者如何集成 AIUI 能力。</p>
 <p>先上一下有意思的演示视频</p>
 <ol>
