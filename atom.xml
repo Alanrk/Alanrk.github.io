@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>Kveln&apos;s Blog</title>
-    <updated>2019-11-19T03:40:20.901Z</updated>
+    <updated>2019-11-19T03:41:03.004Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2019, Kveln&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[腾讯将在视频中插入AI广告]]></title>
-        <id>https://kveln.cn/post/104</id>
-        <link href="https://kveln.cn/post/104">
+        <id>https://kveln.cn/post/-wHpjqmoO</id>
+        <link href="https://kveln.cn/post/-wHpjqmoO">
         </link>
         <updated>2019-10-28T10:24:08.000Z</updated>
         <content type="html"><![CDATA[<p>我们知道现在一般的视频网站在片头和片中都会有广告，用户就算买了会员，可能也逃不过片中的广告，对于用户来说，这种体验是不好的。而且现在视频中插入的广告一般都能生硬，大家对太多的广告植入都很反感。近期在推上看到一段视频，说是腾讯与计算机视觉和 AI 公司 Mirriad 合作实施了一个项目，就是在视频不中断的情况下插入广告，这样用户就会无感知，可能你买了会员，还是在不知不觉中看到了广告。下面是示例视频</p>
@@ -209,9 +209,9 @@ git push
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-928157"><label class="task-list-item-label" for="task-item-928157"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4765937"><label class="task-list-item-label" for="task-item-4765937"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6578155"><label class="task-list-item-label" for="task-item-6578155"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2735729"><label class="task-list-item-label" for="task-item-2735729"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9874238"><label class="task-list-item-label" for="task-item-9874238"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1002602"><label class="task-list-item-label" for="task-item-1002602"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
