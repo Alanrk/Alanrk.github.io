@@ -675,6 +675,7 @@ h3.post-subtitle {
   margin: 10px auto;
 }
 p.next-post {
-  border-left: 2px solid #333;
+  border-left: 4px solid #333;
   padding-left: 16px;
+  margin-top: 2em;
 }

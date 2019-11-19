@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
-    <title>Kveln&apos;s Blog</title>
-    <updated>2019-11-19T04:16:23.730Z</updated>
+    <title>kveln&apos;s blog</title>
+    <updated>2019-11-19T08:46:38.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
     <subtitle>Stay hungry,Stay foolish!</subtitle>
     <logo>https://kveln.cn/images/avatar.png</logo>
     <icon>https://kveln.cn/favicon.ico</icon>
-    <rights>All rights reserved 2019, Kveln&apos;s Blog</rights>
+    <rights>All rights reserved 2019, kveln&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[腾讯将在视频中插入AI广告]]></title>
         <id>https://kveln.cn/post/-wHpjqmoO</id>
@@ -210,9 +210,9 @@ git push
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-674658"><label class="task-list-item-label" for="task-item-674658"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-937607"><label class="task-list-item-label" for="task-item-937607"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9008709"><label class="task-list-item-label" for="task-item-9008709"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8316450"><label class="task-list-item-label" for="task-item-8316450"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-1883750"><label class="task-list-item-label" for="task-item-1883750"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5579618"><label class="task-list-item-label" for="task-item-5579618"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
