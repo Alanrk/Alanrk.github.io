@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>kveln&apos;s blog</title>
-    <updated>2019-11-19T10:40:31.473Z</updated>
+    <updated>2019-11-20T02:41:08.857Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -288,9 +288,9 @@ git push
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8445190"><label class="task-list-item-label" for="task-item-8445190"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8940250"><label class="task-list-item-label" for="task-item-8940250"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8186350"><label class="task-list-item-label" for="task-item-8186350"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4050689"><label class="task-list-item-label" for="task-item-4050689"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4136155"><label class="task-list-item-label" for="task-item-4136155"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5406802"><label class="task-list-item-label" for="task-item-5406802"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
@@ -1495,10 +1495,7 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
         <link href="https://kveln.cn/post/Design Collection">
         </link>
         <updated>2017-07-30T07:36:30.000Z</updated>
-        <summary type="html"><![CDATA[<p>这个是我最近想做的一个关于产品设计细节的一个专题，收集日常碰到的有趣的、有意思的设计，作为一个归档。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>这个是我最近想做的一个关于产品设计细节的一个专题，收集日常碰到的有趣的、有意思的设计，作为一个归档。</p>
-<!-- more -->
 <p>&lt;2017-7-30&gt;</p>
 <h2 id="qq底部标签栏动态图标">QQ底部标签栏动态图标</h2>
 <p>当消息icon被选中的时候，联系人icon和动态icon都会扭过头来，反之选中其它的两个icon被选中也是如此，好像再说快来看我，给整个APP增加了趣味性，也符合QQ年轻化的定位。</p>
@@ -1520,10 +1517,7 @@ em：以父节点font-size大小为参考点，标准不统一，容易造成混
         <link href="https://kveln.cn/post/1">
         </link>
         <updated>2017-05-17T12:14:26.000Z</updated>
-        <summary type="html"><![CDATA[<p>整理了一下常用的产品设计理论和模型，内容来自于网络整理，持续更新。</p>
-]]></summary>
         <content type="html"><![CDATA[<p>整理了一下常用的产品设计理论和模型，内容来自于网络整理，持续更新。</p>
-<!-- more -->
 <h3 id="jakob-nielsen的10条可用性法则">Jakob Nielsen的10条可用性法则</h3>
 <p><strong>1.系统状态的可见性</strong>：系统必须通过在合适时间的适当反馈让用户知道系统当前在干什么。</br><br>
 <strong>2.系统和现实世界的匹配</strong>：系统必须使用用户的语言，使用用户熟悉的单词、词组和概念，而不是面向系统的术语。遵循现实世界的规范，使得信息以自然和有逻辑的方式呈现。</br><br>
