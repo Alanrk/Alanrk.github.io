@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
   <head>
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,14 +10,14 @@
   <meta name="description" content="产品经理的个人博客,记录产品,设计,开发,工具,成长等">
   <meta name="baidu-site-verification" content="Ekus6aWf8O" />
   <meta name="author" content="kveln">
-  <title>kveln&#39;s blog</title>
+  <title>使用 instant.page预加速Gridea博客 | kveln&#39;s blog</title>
   <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <!-- <link href="https://kveln.cn/media/css/bootstrap.min.css" rel="stylesheet"> -->
   <!--  <link href="https://kveln.cn/media/css/all.min.css" rel="stylesheet" type="text/css"> -->
   <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link rel="alternate" type="application/rss+xml" title="kveln&#39;s blog » Feed" href="https://kveln.cn/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="使用 instant.page预加速Gridea博客 | kveln&#39;s blog » Feed" href="https://kveln.cn/atom.xml">
   <link rel="stylesheet"href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.10/build/styles/androidstudio.min.css">
   <link href="https://cdn.jsdelivr.net/gh/Alanrk/Alanrk.github.io/styles/main.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
@@ -34,9 +34,15 @@
     gtag('config', 'UA-138993560-3');</script>
   
 
+    <meta property="og:description" content="使用 instant.page预加速Gridea博客"/>
+    <meta property="og:url" content="https://kveln.cn/post/BMDxD6cBT"/>
+    <meta property="og:locale" content="zh-CN"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="kveln&#39;s blog"/>
   </head>
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  	<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand" href="https://kveln.cn">kveln&#39;s blog</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,223 +98,76 @@
       </div>
     </div>
   </nav>
+  <!-- Page Header -->
   <header class="masthead" style="background-image: url('https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn@1.1/images/home-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>kveln&#39;s blog</h1>
-            <span class="subheading">Stay hungry,Stay foolish!</span>
+          <div class="post-heading">
+          	<span class="tags">
+          	 
+        </span>
+            <h1>使用 instant.page预加速Gridea博客</h1>
+            <span class="meta">
+            	Posted on
+              2019.11.27，1 min read
+            </span>
           </div>
         </div>
       </div>
     </div>
   </header>
-      <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-       
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/BMDxD6cBT">
-            <h2 class="post-title">
-              使用 instant.page预加速Gridea博客
-            </h2>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto post-content">
+          <p>前些天在网上发现了 instant.page 这个脚本，它说可以提高网站页面的打开速度，而且大小只有 1kb。于是给本站加上了这个脚本，好像还有点效果，在这里分享一下。</p>
+<h4 id="原理">原理</h4>
+<p><strong>PC端</strong>：当用户的鼠标在链接上悬停了65毫秒时，这个脚本开始预加载页面；还有一种就是在用户开始按下鼠标时 ，开始预加载页面。</p>
+<p><strong>移动端</strong>：用户在滑动屏幕时，链接可见时，就开始预加载。</p>
+<h4 id="注意">注意</h4>
+<p>仅当用户很有可能会访问页面时才预加载页面，并且仅HTML被预加载。</p>
+<h4 id="使用">使用</h4>
+<p>将此HTML代码段放在&lt; <strong>/</strong> body&gt; 之前：</p>
+<pre><code class="language-html">&lt;script src=&quot;//instant.page/3.0.0&quot; type=&quot;module&quot; defer integrity=&quot;sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+          
+          <p class="next-post">下一篇：
+            <a href="https://kveln.cn/post/104">
+              <span class="post-title">
+                优惠券系统设计复盘（1）&rarr;
+              </span>
             </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.11.27</span>
-             <span>,</span>
-             <span class="post-stats">1 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
+          </p>
         
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/104">
-            <h2 class="post-title">
-              优惠券系统设计复盘（1）
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.11.01</span>
-             <span>,</span>
-             <span class="post-stats">7 min read</span>
-            </p>
+        <div class="comment">
+          
+        <!--载入js，在</body>之前插入即可-->
+                              <!--Leancloud操作库:-->
+                              <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+                              <!--Valine的核心代码库-->
+                              <script src="https://cdn.jsdelivr.net/gh/Alanrk/clean-cdn/scripts/Valine.min.js"></script>
+                              <div class="comment"></div>
+                              <script>new Valine({
+                                  av: AV,
+                                  el: '.comment',
+                                  lang: 'zh-cn',
+                                  admin_email: 'moorel@qq.com',
+                                  emoticon_url: 'https://cloud.panjunwen.com/alu',
+                                  emoticon_list: ["吐.png","喷血.png","狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","中指.png","尴尬.png","瞅你.png","想一想.png","中枪.png","得意.png","肿包.png","扇耳光.png","亲亲.png","惊喜.png","脸红.png","无所谓.png","便便.png","愤怒.png","蜡烛.png","献黄瓜.png","内伤.png","投降.png","观察.png","看不见.png","击掌.png","抠鼻.png","邪恶.png","看热闹.png","口水.png","抽烟.png","锁眉.png","装大款.png","吐舌.png","无奈.png","长草.png","赞一个.png","呲牙.png","无语.png","阴暗.png","不出所料.png","咽气.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png","黑线.png","喜极而泣.png","喷水.png","深思.png","鼓掌.png","暗地观察.png"],
+                                  app_id: 'G5Iux4N6zmtNIABC1z81F5So-MdYXbMMI',
+                                  app_key: 'nrGvHcHguBfswdoUgSoXi3Em',
+                                  placeholder: '评论留言'
+                                });</script>
         </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/-wHpjqmoO">
-            <h2 class="post-title">
-              腾讯将在视频中插入AI广告
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.10.28</span>
-             <span>,</span>
-             <span class="post-stats">1 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/103">
-            <h2 class="post-title">
-              删除Mac下Git上传项目代码时产生的.DS_Store文件
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.10.25</span>
-             <span>,</span>
-             <span class="post-stats">2 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/102">
-            <h2 class="post-title">
-              Gridea 主题 “clean”
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.10.24</span>
-             <span>,</span>
-             <span class="post-stats">1 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/101">
-            <h2 class="post-title">
-              Markdown 测试文章
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.10.21</span>
-             <span>,</span>
-             <span class="post-stats">2 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/100">
-            <h2 class="post-title">
-              iOS Airdrop 至 macOS，图是 HEIC 格式怎么办
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.10.13</span>
-             <span>,</span>
-             <span class="post-stats">1 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/99">
-            <h2 class="post-title">
-              年轻人的第一台MacBookPro
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.10.10</span>
-             <span>,</span>
-             <span class="post-stats">1 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/20">
-            <h2 class="post-title">
-              阿里云轻应用服务器安装宝塔面板
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.09.03</span>
-             <span>,</span>
-             <span class="post-stats">3 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        <div class="post-preview">
-          <a href="https://kveln.cn/post/Ne Zha">
-            <h2 class="post-title">
-              《哪吒之魔童降世》并没有那么好
-            </h2>
-            </a>
-            <h3 class="post-subtitle">
-              
-            </h3>
-          <p class="post-meta">
-             <span class="time">2019.08.26</span>
-             <span>,</span>
-             <span class="post-stats">2 min read</span>
-            </p>
-        </div>
-        <hr>
-        <div class="clearfix">
-        </div>
-        
-        
-        
-        <a class="btn btn-primary float-right" href="https://kveln.cn/page/2/">下一页 &rarr;</a>
-        
       </div>
     </div>
-  </div>
-
-  
-    <!-- Footer -->
+  </article>
+ <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
@@ -406,3 +265,4 @@
   })(this));</script>
   </body>
 </html>
+

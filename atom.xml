@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kveln.cn</id>
     <title>kveln&apos;s blog</title>
-    <updated>2019-11-27T05:46:06.008Z</updated>
+    <updated>2019-11-27T10:53:00.290Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kveln.cn"/>
     <link rel="self" href="https://kveln.cn/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://kveln.cn/images/avatar.png</logo>
     <icon>https://kveln.cn/favicon.ico</icon>
     <rights>All rights reserved 2019, kveln&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 instant.page预加速Gridea博客]]></title>
+        <id>https://kveln.cn/post/BMDxD6cBT</id>
+        <link href="https://kveln.cn/post/BMDxD6cBT">
+        </link>
+        <updated>2019-11-27T10:22:38.000Z</updated>
+        <content type="html"><![CDATA[<p>前些天在网上发现了 instant.page 这个脚本，它说可以提高网站页面的打开速度，而且大小只有 1kb。于是给本站加上了这个脚本，好像还有点效果，在这里分享一下。</p>
+<h4 id="原理">原理</h4>
+<p><strong>PC端</strong>：当用户的鼠标在链接上悬停了65毫秒时，这个脚本开始预加载页面；还有一种就是在用户开始按下鼠标时 ，开始预加载页面。</p>
+<p><strong>移动端</strong>：用户在滑动屏幕时，链接可见时，就开始预加载。</p>
+<h4 id="注意">注意</h4>
+<p>仅当用户很有可能会访问页面时才预加载页面，并且仅HTML被预加载。</p>
+<h4 id="使用">使用</h4>
+<p>将此HTML代码段放在&lt; <strong>/</strong> body&gt; 之前：</p>
+<pre><code class="language-html">&lt;script src=&quot;//instant.page/3.0.0&quot; type=&quot;module&quot; defer integrity=&quot;sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1&quot;&gt;&lt;/script&gt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[优惠券系统设计复盘（1）]]></title>
         <id>https://kveln.cn/post/104</id>
@@ -288,9 +306,9 @@ git push
 </table>
 <h2 id="任务列表">任务列表</h2>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3500879"><label class="task-list-item-label" for="task-item-3500879"> 第一</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5866056"><label class="task-list-item-label" for="task-item-5866056"> 第二</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-473053"><label class="task-list-item-label" for="task-item-473053"> 第三</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3432781"><label class="task-list-item-label" for="task-item-3432781"> 第一</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7094188"><label class="task-list-item-label" for="task-item-7094188"> 第二</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6200492"><label class="task-list-item-label" for="task-item-6200492"> 第三</label></li>
 </ul>
 ]]></content>
     </entry>
