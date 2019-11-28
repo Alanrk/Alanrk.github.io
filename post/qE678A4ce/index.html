@@ -138,11 +138,7 @@
 <p>leancloud注册及配置见<a href="https://valine.js.org/quickstart.html">快速开始文档</a></p>
 <h3 id="修改主题模板">修改主题模板</h3>
 <p>在Gridea theme模板的<strong>head.ejs</strong>中引入</p>
-<pre><code class="language-html">&lt;head&gt;
-    ..
-    &lt;script src='//unpkg.com/valine/dist/Valine.min.js'&gt;&lt;/script&gt;
-    ...
-&lt;/head&gt;
+<pre><code class="language-html">    &lt;script src='//unpkg.com/valine/dist/Valine.min.js'&gt;&lt;/script&gt;
 </code></pre>
 <p>在<strong>post.ejs</strong>文章详情页模板中文章末尾的位置添加下面的代码</p>
 <pre><code class="language-html">&lt;div id=&quot;vcomments&quot;&gt;&lt;/div&gt;
@@ -157,13 +153,13 @@
 <p>appid和和appkey替换成leancloud中的应用key即可。修改完成后点击保存，然后同步，就可以了。记得在Gridea客户端中把配置中的评论关掉。</p>
 <p>打开文章详情页，显示评论框就成功了。</p>
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170592469-assets/web-upload/9209fe50-a1b7-47e2-bc51-5cbb67b0931d.png" referrerpolicy="no-referrer" alt="">
-<h3 id="使用修改版本的valine-by-deserts">使用修改版本的valine--by  <a href="https://deserts.io/diy-a-comment-system/">Deserts</a></h3>
+<h3 id="使用修改版本的valine-by-deserts">使用修改版本的valine--by Deserts</h3>
 <p>作者教程地址：<a href="https://deserts.io/diy-a-comment-system/">https://deserts.io/diy-a-comment-system/</a></p>
 <p>这是一个修改版本的valine，默认评论框是不显示的，点击才显示评论框，并且增加了表情包。本站使用的是修改版本的valine评论系统。</p>
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170803350-assets/web-upload/bd5913e0-6031-45d0-ac58-07dab805d8d6.png" referrerpolicy="no-referrer" alt="">
 点击后
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563170833611-assets/web-upload/e99b404c-e918-496e-a9fc-afd88f64bb83.png" referrerpolicy="no-referrer" alt="">
-同样需要先注册leancloud,以及[配置leancloud](https://valine.js.org/quickstart.html)
+<h4 id="同样需要先注册leancloud以及配置leancloud">同样需要先注册leancloud,以及<a href="https://valine.js.org/quickstart.html">配置leancloud</a></h4>
 <h3 id="修改主题模板-2">修改主题模板</h3>
 <p>在<strong>post.ejs</strong>文章详情页模板中文章末尾的位置添加下面的代码</p>
 <pre><code class="language-html">&lt;!--载入js，在&lt;/body&gt;之前插入即可--&gt;
@@ -189,7 +185,7 @@
 <h3 id="注意">注意</h3>
 <p>Valine.min.js,你可以使用我这个站点的，把它<a href="https://kveln.cn/media/scripts/Valine.min.js">下载</a>下来，放到主题模板文件中的media中，注意路径。</p>
 <p>本站使用的是leancloud国际站点，添加代码后，发现显示错误401、error、Unauthorized.<br>
-经过<a href="https://miracol.cn/">文中君</a>提醒，手动在leancloud应用-存储中添加Comment这个class就可以了。</p>
+需要手动在leancloud应用-存储中添加Comment这个class就可以了。</p>
 <img src="https://cdn.nlark.com/yuque/0/2019/png/302953/1563172735024-assets/web-upload/9ebc6aff-e198-4484-9bc2-1faf98875415.png" referrerpolicy="no-referrer" alt="">
 <h3 id="使用valine-admin管理评论">使用Valine Admin管理评论</h3>
 <p>Valine Admin主要实现评论邮件通知、评论管理、垃圾评论过滤等功能。支持完全自定义的邮件通知模板。</p>
